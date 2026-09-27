@@ -1,135 +1,135 @@
 [
   {
     "id": "kit_water",
-    "category": "Lương thực & Nước uống",
-    "title": "Nước uống đóng chai",
-    "description": "Tối thiểu 3 lít/người/ngày, đủ dùng trong 3 ngày (tổng 9 lít/người).",
+    "category": "Food and water",
+    "title": "Bottled drinking water",
+    "description": "At least 3 liters per person per day, enough for 3 days (9 liters per person).",
     "isEssential": true
   },
   {
     "id": "kit_food",
-    "category": "Lương thực & Nước uống",
-    "title": "Thực phẩm khô không cần nấu",
-    "description": "Lương khô quân đội, đồ hộp, bánh quy năng lượng, các loại hạt dinh dưỡng.",
+    "category": "Food and water",
+    "title": "Ready-to-eat dry food",
+    "description": "Military rations, canned food, energy biscuits, and nutritious nuts.",
     "isEssential": true
   },
   {
     "id": "kit_water_purify",
-    "category": "Lương thực & Nước uống",
-    "title": "Viên khử trùng nước / Ống lọc sinh tồn",
-    "description": "Viên Aquatabs hoặc ống lọc di động dùng khi cạn kiệt nước đóng chai.",
+    "category": "Food and water",
+    "title": "Water purification tablets or a survival filter",
+    "description": "Aquatabs or a portable filter for when bottled water runs out.",
     "isEssential": false
   },
   {
     "id": "kit_med_box",
-    "category": "Y tế & Dược phẩm",
-    "title": "Túi sơ cứu y tế",
-    "description": "Băng cuộn, gạc vô trùng, băng dán cá nhân, dung dịch sát khuẩn Povidone Iodine.",
+    "category": "Medical supplies",
+    "title": "First aid kit",
+    "description": "Roller bandages, sterile gauze, adhesive bandages, and povidone-iodine antiseptic.",
     "isEssential": true
   },
   {
     "id": "kit_med_personal",
-    "category": "Y tế & Dược phẩm",
-    "title": "Thuốc đặc trị theo toa của gia đình",
-    "description": "Thuốc huyết áp, tim mạch, tiểu đường, hen suyễn dự trữ tối thiểu 7-14 ngày.",
+    "category": "Medical supplies",
+    "title": "Family prescription medicines",
+    "description": "Blood pressure, heart, diabetes, and asthma medicines for at least 7–14 days.",
     "isEssential": true
   },
   {
     "id": "kit_med_basic",
-    "category": "Y tế & Dược phẩm",
-    "title": "Thuốc không kê đơn thiết yếu",
-    "description": "Hạ sốt Paracetamol, thuốc tiêu chảy Berberin, gói bù nước điện giải Oresol.",
+    "category": "Medical supplies",
+    "title": "Essential over-the-counter medicines",
+    "description": "Paracetamol for fever, anti-diarrheal medicine, and oral rehydration salts.",
     "isEssential": true
   },
   {
     "id": "kit_flashlight",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Đèn pin siêu sáng & Pin dự phòng",
-    "description": "Đèn pin chống nước chuẩn IPX6 kèm theo pin tiểu dự trữ.",
+    "category": "Tools and power",
+    "title": "Bright flashlight and spare batteries",
+    "description": "A waterproof flashlight (IPX6) plus spare AA or AAA batteries.",
     "isEssential": true
   },
   {
     "id": "kit_powerbank",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Sạc dự phòng điện thoại (20.000mAh+)",
-    "description": "Sạc đầy 100% kèm dây cáp sạc đa năng tương thích các loại máy.",
+    "category": "Tools and power",
+    "title": "Phone power bank (20,000 mAh or more)",
+    "description": "Charge it to 100% and pack a universal charging cable.",
     "isEssential": true
   },
   {
     "id": "kit_radio",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Đài Radio FM/AM chạy pin",
-    "description": "Cực kỳ quan trọng để bắt sóng thông tin cứu hộ khi mất mạng di động và Internet.",
+    "category": "Tools and power",
+    "title": "Battery-powered FM/AM radio",
+    "description": "Essential for rescue broadcasts when mobile networks and the internet are down.",
     "isEssential": true
   },
   {
     "id": "kit_multitool",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Dao đa năng & Kìm bấm",
-    "description": "Mở hộp thực phẩm, cắt dây, bẩy vật cản thoát nạn.",
+    "category": "Tools and power",
+    "title": "Multi-tool and pliers",
+    "description": "Open food cans, cut cord, and pry obstacles out of an escape route.",
     "isEssential": true
   },
   {
     "id": "kit_whistle",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Còi cứu hộ tần số cao",
-    "description": "Âm thanh còi truyền xa gấp 3 lần tiếng la hét mà không mất sức.",
+    "category": "Tools and power",
+    "title": "High-frequency rescue whistle",
+    "description": "A whistle carries about three times farther than a shout and does not tire you out.",
     "isEssential": true
   },
   {
     "id": "kit_lighter",
-    "category": "Công cụ & Nguồn điện",
-    "title": "Bật lửa / Que diêm chống nước",
-    "description": "Dùng để tạo nguồn lửa sưởi ấm, nấu nước sôi và phát tín hiệu khói cứu hộ.",
+    "category": "Tools and power",
+    "title": "Lighter or waterproof matches",
+    "description": "Start a fire for warmth, boil water, and send a smoke signal.",
     "isEssential": false
   },
   {
     "id": "kit_doc_bag",
-    "category": "Giấy tờ & Tài chính",
-    "title": "Giấy tờ tùy thân bọc túi zip chống nước",
-    "description": "CCCD, thẻ BHYT, sổ hộ khẩu, giấy khai sinh bản photo công chứng.",
+    "category": "Documents and money",
+    "title": "ID papers in a waterproof zip bag",
+    "description": "Citizen ID, health insurance card, household booklet, and certified copies of birth certificates.",
     "isEssential": true
   },
   {
     "id": "kit_cash",
-    "category": "Giấy tờ & Tài chính",
-    "title": "Tiền mặt mệnh giá nhỏ",
-    "description": "ATM và ví điện tử sẽ tê liệt hoàn toàn khi mất điện diện rộng.",
+    "category": "Documents and money",
+    "title": "Small-denomination cash",
+    "description": "ATMs and digital wallets fail completely during a widespread power outage.",
     "isEssential": true
   },
   {
     "id": "kit_blanket",
-    "category": "Quần áo & Giữ ấm",
-    "title": "Chăn giữ nhiệt tráng bạc (Mylar)",
-    "description": "Gấp siêu nhỏ, giữ ấm 90% nhiệt lượng cơ thể, chống gió nước tuyệt đối.",
+    "category": "Clothing and warmth",
+    "title": "Silver emergency blanket (Mylar)",
+    "description": "Folds very small, reflects about 90% of body heat, and blocks wind and water.",
     "isEssential": true
   },
   {
     "id": "kit_raincoat",
-    "category": "Quần áo & Giữ ấm",
-    "title": "Áo mưa dẻo & Quần áo dự phòng",
-    "description": "1 bộ quần áo dài tay gấp gọn trong túi chống nước và 1 áo mưa dày dặn.",
+    "category": "Clothing and warmth",
+    "title": "Rain poncho and spare clothes",
+    "description": "One long-sleeve outfit packed in a dry bag, plus a heavy rain poncho.",
     "isEssential": true
   },
   {
     "id": "kit_lifejacket",
-    "category": "Quần áo & Giữ ấm",
-    "title": "Áo phao cứu sinh đạt chuẩn",
-    "description": "Bắt buộc nếu gia đình bạn sinh sống ở vùng trũng thấp có nguy cơ ngập lụt.",
+    "category": "Clothing and warmth",
+    "title": "Certified life jacket",
+    "description": "Required if your family lives in a low-lying area that can flood.",
     "isEssential": true
   },
   {
     "id": "kit_mask",
-    "category": "Vệ sinh & Bảo hộ",
-    "title": "Khẩu trang N95 / Mặt nạ chống bụi khói",
-    "description": "Bảo vệ đường hô hấp khỏi khói bụi vụn tro và mầm bệnh sau bão lũ.",
+    "category": "Hygiene and protection",
+    "title": "N95 mask or smoke respirator",
+    "description": "Protects your airways from dust, ash, and disease after storms and floods.",
     "isEssential": true
   },
   {
     "id": "kit_gloves",
-    "category": "Vệ sinh & Bảo hộ",
-    "title": "Găng tay lao động dày dặn",
-    "description": "Bảo vệ đôi tay khi dọn dẹp tôn rỉ, mảnh kính vỡ và cây cối đổ nát.",
+    "category": "Hygiene and protection",
+    "title": "Heavy work gloves",
+    "description": "Protect your hands while clearing rusty metal, broken glass, and fallen trees.",
     "isEssential": false
   }
 ]

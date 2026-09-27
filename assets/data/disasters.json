@@ -1,204 +1,204 @@
 [
   {
     "id": "bao",
-    "name": "Bão & Áp thấp nhiệt đới",
+    "name": "Typhoon and tropical depression",
     "icon": "🌪️",
-    "tag": "Khí tượng",
+    "tag": "Weather",
     "color": "#D32F2F",
-    "summary": "Gió xoáy cực mạnh kèm mưa rất to, nguy cơ tốc mái, đổ cây, gãy cột điện và ngập úng diện rộng.",
+    "summary": "Extremely strong rotating wind with very heavy rain, risking blown-off roofs, fallen trees, broken power poles, and widespread flooding.",
     "phases": {
       "before": [
-        "Thường xuyên theo dõi bản tin dự báo khí tượng thủy văn chính thống.",
-        "Chằng chống nhà cửa, gia cố mái tôn bằng bao cát hoặc dây cáp thép cố định.",
-        "Cắt tỉa cành cây lớn xung quanh nhà, hạ thấp biển quảng cáo, chậu hoa trên cao.",
-        "Dự trữ nước sạch (tối thiểu 3 lít/người/ngày) và lương thực khô cho 3 - 5 ngày.",
-        "Kiểm tra pin sạc dự phòng, đèn pin, đài radio FM/AM chạy pin, nến và diêm.",
-        "Cất giữ giấy tờ tùy thân, tài liệu quan trọng trong túi nilon chống nước.",
-        "Đưa xe máy, ô tô, vật nuôi đến vị trí cao ráo, kiên cố."
+        "Keep checking official weather and hydrology forecasts.",
+        "Brace the house and secure metal roofs with sandbags or steel cables.",
+        "Trim large branches around the house, and lower signs and flower pots from high places.",
+        "Store clean water (at least 3 liters per person per day) and dry food for 3–5 days.",
+        "Check power banks, flashlights, a battery FM/AM radio, candles, and matches.",
+        "Keep ID and important papers in a waterproof plastic bag.",
+        "Move motorbikes, cars, and livestock to high, solid ground."
       ],
       "during": [
-        "Ở yên trong nhà kiên cố, tuyệt đối không ra ngoài khi bão đang đổ bộ.",
-        "Tránh xa cửa sổ bằng kính, cửa ra vào mỏng; nên ở phòng giữa nhà hoặc dưới cầu thang.",
-        "Ngắt toàn bộ cầu dao điện chính và khóa van gas để phòng ngừa chập cháy.",
-        "Cẩn giác với 'mắt bão' - khoảng lặng tạm thời trời quang mây tạnh, gió sẽ đảo chiều và giật dữ dội ngay sau đó.",
-        "Nếu nhà có dấu hiệu nứt hoặc sập, di chuyển ngay sang nhà kiên cố lân cận đã thỏa thuận trước."
+        "Stay inside a solid building. Do not go outside while the storm is making landfall.",
+        "Stay away from glass windows and thin doors. Use a central room or the space under the stairs.",
+        "Switch off the main breaker and close the gas valve to prevent a short circuit or fire.",
+        "Watch for the eye of the storm: a brief calm with clear skies. The wind will reverse and gust hard again right after.",
+        "If the house starts to crack or collapse, move at once to a solid neighbor's house you agreed on in advance."
       ],
       "after": [
-        "Không chạm vào dây điện đứt rơi trên mặt đất hoặc ngâm dưới nước.",
-        "Kiểm tra rò rỉ khí gas trước khi bật quẹt hoặc cắm điện trở lại.",
-        "Đề phòng mái tôn rỉ sét hoặc kính vỡ có thể rơi rụng bất ngờ.",
-        "Chỉ uống nước đun sôi để nguội; vứt bỏ thực phẩm đã ngâm nước lũ hoặc ôi thiu.",
-        "Hỗ trợ người già, trẻ em và hàng xóm xung quanh khắc phục hậu quả."
+        "Do not touch downed power lines on the ground or in water.",
+        "Check for gas leaks before lighting a flame or plugging anything back in.",
+        "Watch for rusty roofing sheets or broken glass that can fall without warning.",
+        "Drink only water that has been boiled and cooled. Throw out food that was soaked in floodwater or has spoiled.",
+        "Help older adults, children, and neighbors recover."
       ]
     },
     "donts": [
-      "KHÔNG đi ra ngoài đường, bờ biển, triền đê khi bão đang đổ bộ.",
-      "KHÔNG trú mưa dưới gốc cây to, cột điện hoặc gần biển quảng cáo lớn.",
-      "KHÔNG tự ý bơi lội, lội qua suối hoặc đi xuồng bè qua nơi nước chảy xiết.",
-      "KHÔNG mở toang cửa sổ hoặc cửa chính khiến gió lùa gây tốc mái."
+      "Do NOT go out on the road, the beach, or a dike while the storm is making landfall.",
+      "Do NOT shelter under a large tree, a power pole, or a big billboard.",
+      "Do NOT swim, wade a stream, or take a boat through fast-moving water.",
+      "Do NOT open windows or the front door wide. Wind can tear the roof off."
     ]
   },
   {
     "id": "lu_lut",
-    "name": "Lũ lụt & Ngập úng",
+    "name": "Floods and inundation",
     "icon": "🌊",
-    "tag": "Thủy văn",
+    "tag": "Water",
     "color": "#1976D2",
-    "summary": "Mực nước sông dâng cao tràn bờ hoặc nước mưa không kịp thoát gây ngập sâu, cô lập và cuốn trôi tài sản.",
+    "summary": "Rivers overtop their banks, or rainwater cannot drain, causing deep flooding, isolation, and property being swept away.",
     "phases": {
       "before": [
-        "Xác định vị trí cao nhất trong nhà hoặc điểm sơ tán an toàn của địa phương.",
-        "Kê cao đồ đạc có giá trị, thiết bị điện tử, lương thực lên gác lửng hoặc tầng 2.",
-        "Chuẩn bị sẵn phao cứu sinh, áo phao, săm lốp bơm căng cho mọi thành viên gia đình.",
-        "Chuẩn bị đèn pin, còi cứu hộ, dây thừng chắc chắn.",
-        "Bọc kín các loại thuốc men thiết yếu và thực phẩm khô trong hộp kín khí."
+        "Identify the highest point in the house and the local safe evacuation site.",
+        "Raise valuables, electronics, and food onto a loft or the second floor.",
+        "Prepare life rings, life jackets, and inflated inner tubes for every family member.",
+        "Prepare a flashlight, a rescue whistle, and strong rope.",
+        "Seal essential medicines and dry food in airtight containers."
       ],
       "during": [
-        "Ngắt ngay cầu dao điện và bình gas khi nước tràn vào hiên nhà.",
-        "Di chuyển lên tầng cao hoặc gác xép cùng túi cứu sinh và nguồn nước uống.",
-        "Nếu nước ngập trần gác lửng, tìm cách thoát ra mái nhà và phát tín hiệu cứu hộ (vẫy vải sáng màu, thổi còi).",
-        "Luôn mặc áo phao hoặc giữ chặt phao cứu sinh bên mình.",
-        "Gọi số điện thoại khẩn cấp 112 hoặc thông báo ban chỉ huy cứu nạn địa phương."
+        "Switch off the main breaker and the gas as soon as water enters the porch.",
+        "Move to an upper floor or loft with your survival kit and drinking water.",
+        "If water covers the loft ceiling, get onto the roof and signal for rescue (wave a bright cloth or blow a whistle).",
+        "Keep a life jacket on, or hold a life ring at all times.",
+        "Call emergency number 112 or the local rescue command."
       ],
       "after": [
-        "Không lội vào dòng nước lũ đang chảy xiết dù chỉ sâu quá đầu gối.",
-        "Rửa sạch và khử trùng toàn bộ nhà cửa, giếng nước bị ngập bằng Cloramin B trước khi dùng.",
-        "Không bật lại các thiết bị điện ngập nước khi chưa được thợ kỹ thuật sấy khô và kiểm tra.",
-        "Cảnh giác rắn rết, bọ cạp và động vật bò sát nguy hiểm ẩn nấp trong bùn rác."
+        "Do not wade into fast floodwater, even if it is only just above the knee.",
+        "Wash and disinfect the whole house and any flooded well with chloramine B before use.",
+        "Do not switch flooded electrical devices back on until a technician has dried and checked them.",
+        "Watch for snakes, scorpions, and other dangerous animals hiding in mud and debris."
       ]
     },
     "donts": [
-      "KHÔNG cố lái ô tô hoặc xe máy qua đường ngập nước chảy xiết.",
-      "KHÔNG để trẻ em bơi lội, chơi đùa gần cống rãnh hoặc vùng nước ngập sâu.",
-      "KHÔNG uống nước ngập trực tiếp khi chưa qua lọc và đun sôi.",
-      "KHÔNG chạm vào cột điện, trạm biến áp chìm trong nước."
+      "Do NOT try to drive a car or motorbike through fast-moving floodwater.",
+      "Do NOT let children swim or play near drains or deep flooded areas.",
+      "Do NOT drink floodwater that has not been filtered and boiled.",
+      "Do NOT touch power poles or substations standing in water."
     ]
   },
   {
     "id": "sat_lo",
-    "name": "Sạt lở đất & Lũ quét",
+    "name": "Landslides and flash floods",
     "icon": "⛰️",
-    "tag": "Địa chất",
+    "tag": "Geology",
     "color": "#E64A19",
-    "summary": "Đất đá từ sườn đồi núi sạt trượt đột ngột với tốc độ cực nhanh, có sức tàn phá dữ dội trong chớp mắt.",
+    "summary": "Soil and rock from a hillside can slide without warning at extreme speed and destroy everything in seconds.",
     "phases": {
       "before": [
-        "Quan sát các dấu hiệu sớm: vết nứt mới trên sườn đồi, cây cối nghiêng bất thường, nước suối đục ngầu đột ngột.",
-        "Lắng nghe âm thanh lạ từ lòng núi: tiếng ầm ầm như sấm, tiếng gãy rắc của rễ cây lớn.",
-        "Không xây nhà sát chân vách đá dựng đứng hoặc ngay cửa khe suối thoát lũ.",
-        "Chủ động sơ tán ngay khi chính quyền phát lệnh hoặc khi có mưa lớn liên tục trên 24 giờ."
+        "Watch for early signs: new cracks on the slope, trees leaning oddly, or a stream turning muddy all at once.",
+        "Listen for strange sounds from the mountain: a roar like thunder, or large roots snapping.",
+        "Do not build a house against a sheer cliff or at the mouth of a flood gully.",
+        "Evacuate as soon as authorities order it, or after heavy rain has lasted more than 24 hours."
       ],
       "during": [
-        "Nếu nghe tiếng đất đá ầm ầm đổ xuống, chạy ngay sang HAI BÊN sườn đồi, tuyệt đối KHÔNG chạy dọc theo hướng dòng chảy.",
-        "Nếu không kịp chạy thoát: cuộn tròn người lại, bảo vệ đầu và mặt bằng hai cánh tay hoặc nón bảo hộ.",
-        "Tìm cách bám chắc vào các cấu trúc kiên cố hoặc cây lớn còn đứng vững.",
-        "Báo động khẩn cấp cho mọi người xung quanh bằng tiếng la hét hoặc còi hú."
+        "If you hear earth and rock roaring down, run at once to either SIDE of the slope. Do NOT run along the flow.",
+        "If you cannot get clear, curl up and protect your head and face with your arms or a helmet.",
+        "Try to hold a solid structure or a large tree that is still standing.",
+        "Warn everyone nearby by shouting or blowing a whistle."
       ],
       "after": [
-        "Tránh xa khu vực sạt lở vì nguy cơ đất đá tiếp tục trượt lở đợt 2, đợt 3 rất cao.",
-        "Kiểm tra những người bị mắc kẹt mà không tự đặt mình vào vùng nguy hiểm.",
-        "Hướng dẫn lực lượng cứu nạn đến vị trí có nạn nhân cần ứng cứu.",
-        "Không quay lại nhà lấy đồ đạc khi cơ quan chức năng chưa tuyên bố an toàn."
+        "Stay away from the slide. A second or third slide is very likely.",
+        "Check for trapped people without putting yourself in the danger zone.",
+        "Guide rescue teams to anyone who still needs help.",
+        "Do not go back for belongings until officials say it is safe."
       ]
     },
     "donts": [
-      "KHÔNG chạy xuôi theo hướng thung lũng dốc hoặc lòng suối.",
-      "KHÔNG ngủ lại trong lán trại, nhà tạm dưới chân ta luy dốc khi trời mưa lớn kéo dài.",
-      "KHÔNG đi vớt củi, bắt cá ở các dòng suối miền núi đang cuộn chảy xiết."
+      "Do NOT run downhill along a steep valley or a stream bed.",
+      "Do NOT sleep in a camp or a temporary shelter at the foot of a steep cut slope during prolonged heavy rain.",
+      "Do NOT collect driftwood or fish in a mountain stream that is running hard."
     ]
   },
   {
     "id": "set_loc",
-    "name": "Sét đánh & Dông lốc",
+    "name": "Lightning and thunderstorms",
     "icon": "⚡",
-    "tag": "Khí quyển",
+    "tag": "Atmosphere",
     "color": "#FBC02D",
-    "summary": "Phóng điện cường độ hàng trăm triệu Volt kèm gió giật mạnh xoáy cuốn bay mái tôn và cây xanh.",
+    "summary": "Discharges of hundreds of millions of volts, with violent gusts that can tear off metal roofs and uproot trees.",
     "phases": {
       "before": [
-        "Quan sát mây đen vần vũ, bầu trời tối sầm và gió chuyển hướng đột ngột.",
-        "Nếu thấy khoảng cách giữa chớp sáng và tiếng sấm dưới 30 giây (quy tắc 30-30), bạn đang ở vùng sét nguy hiểm.",
-        "Nhanh chóng tìm kiếm công trình kiên cố có hệ thống chống sét để trú ẩn."
+        "Watch for towering dark clouds, a sky that suddenly darkens, and wind that shifts direction.",
+        "If the gap between a flash and the thunder is under 30 seconds (the 30-30 rule), you are in the danger zone.",
+        "Get into a solid building with lightning protection as fast as you can."
       ],
       "during": [
-        "Nếu ở trong nhà: tránh xa cửa sổ, không tắm rửa hoặc rửa chén (nước dẫn điện), ngắt các thiết bị điện tử nhạy cảm.",
-        "Không dùng điện thoại cắm dây; điện thoại di động an toàn nếu không nối sạc vào ổ điện tường.",
-        "Nếu ở ngoài đồng trống: tuyệt đối không đứng dưới gốc cây to hoặc cột kim loại.",
-        "Tư thế an toàn ngoài trời: ngồi xổm, hai chân chụm sát nhau, cúi đầu gập sát đầu gối, hai tay bịt tai, tiếp xúc mặt đất ít nhất có thể (chỉ bằng mũi bàn chân)."
+        "Indoors: stay away from windows, do not shower or wash dishes (water conducts), and unplug sensitive electronics.",
+        "Do not use a corded phone. A mobile phone is safe if it is not plugged into a wall outlet.",
+        "Outdoors in open country: never stand under a large tree or a metal pole.",
+        "Safe outdoor posture: crouch, feet together, head down on your knees, hands over your ears, touching the ground as little as possible (only the balls of your feet)."
       ],
       "after": [
-        "Nếu có người bị sét đánh: họ không mang điện tích, hãy lập tức sơ cứu ép tim CPR và gọi cấp cứu 115.",
-        "Kiểm tra xem mái nhà, cột ăng ten có bị chập cháy hoặc hư hại không."
+        "If someone is struck, they do not hold a charge. Start CPR at once and call 115.",
+        "Check whether the roof or antenna mast is scorched or damaged."
       ]
     },
     "donts": [
-      "KHÔNG trú mưa dưới gốc cây độc lập, chòi canh giữa đồng hoặc trạm xe buýt kim loại.",
-      "KHÔNG cầm vật bằng kim loại (ô dù có cán sắt, gậy golf, cuốc xẻng).",
-      "KHÔNG tụ tập thành nhóm đông người ngoài trời trống; hãy tản ra cách nhau ít nhất 5 mét."
+      "Do NOT shelter under a lone tree, a field watchtower, or a metal bus stop.",
+      "Do NOT hold metal objects (an umbrella with a steel shaft, a golf club, a hoe, or a shovel).",
+      "Do NOT huddle in a group outdoors. Spread out at least 5 meters apart."
     ]
   },
   {
     "id": "chay",
-    "name": "Cháy nhà & Hỏa hoạn",
+    "name": "House fire",
     "icon": "🔥",
-    "tag": "Tai nạn",
+    "tag": "Accident",
     "color": "#C62828",
-    "summary": "Khói độc và nhiệt lượng cực cao lan truyền nhanh chóng, đe dọa trực tiếp tính mạng nếu không thoát hiểm đúng cách.",
+    "summary": "Toxic smoke and extreme heat spread fast and can kill you if you do not escape the right way.",
     "phases": {
       "before": [
-        "Trang bị bình chữa cháy mini và mặt nạ lọc khói trong nhà.",
-        "Lên sẵn ít nhất 2 lối thoát hiểm (cửa chính, ban công, lối thông tầng sang nhà bên).",
-        "Không sạc xe điện qua đêm ở tầng 1 không người trông coi hoặc lối thoát nạn duy nhất.",
-        "Kiểm tra định kỳ đường dây điện, cầu chì và không cắm quá nhiều tải trên một ổ cắm."
+        "Keep a small fire extinguisher and a smoke filter mask in the house.",
+        "Plan at least two exits (front door, balcony, or a way across to the next building).",
+        "Do not charge an electric vehicle overnight on an unattended ground floor or in the only escape route.",
+        "Check wiring and fuses regularly, and do not overload a single outlet."
       ],
       "during": [
-        "Hô hoán báo cháy thật to và ấn chuông báo cháy nếu có.",
-        "Gọi ngay Cảnh sát PCCC 114.",
-        "Dùng khăn hoặc vải nhúng ướt bịt kín mũi và miệng để lọc khói độc và khí CO.",
-        "Hạ thấp người, cúi khom hoặc bò sát mặt sàn để di chuyển (khói độc luôn bốc lên trần).",
-        "Dùng mu bàn tay kiểm tra nhiệt độ tay nắm cửa trước khi mở. Nếu nóng rát, tuyệt đối KHÔNG mở cửa vì lửa đang cháy bên kia.",
-        "Nếu bị kẹt trong phòng: dùng giẻ ướt chèn kín khe cửa, ra ban công hoặc cửa sổ vẫy khăn sáng màu kêu cứu."
+        "Shout that there is a fire and sound the alarm if there is one.",
+        "Call Fire and Rescue on 114 at once.",
+        "Cover your nose and mouth tightly with a wet cloth to filter toxic smoke and carbon monoxide.",
+        "Stay low, crouch, or crawl along the floor (toxic smoke rises to the ceiling).",
+        "Check the door handle with the back of your hand before opening it. If it is burning hot, do NOT open the door. Fire is on the other side.",
+        "If you are trapped, seal the door gaps with wet cloth and go to a balcony or window to wave a bright cloth for help."
       ],
       "after": [
-        "Sau khi thoát ra ngoài an toàn, tập hợp tại điểm hẹn gia đình.",
-        "Báo cáo với lực lượng PCCC nếu còn người thân bị mắc kẹt bên trong.",
-        "Tuyệt đối không quay trở lại tòa nhà đang cháy để lấy tài sản."
+        "Once you are safely outside, meet at the family meeting point.",
+        "Tell firefighters if a relative is still trapped inside.",
+        "Do not go back into a burning building for belongings."
       ]
     },
     "donts": [
-      "KHÔNG sử dụng thang máy khi có cháy (nguy cơ mất điện và ngạt khói trong buồng thang).",
-      "KHÔNG nhảy từ tầng cao xuống đất nếu không có đệm cứu nạn của lực lượng PCCC.",
-      "KHÔNG mở toang các cửa sổ khi lửa đang bùng phát vì oxy sẽ làm lửa bốc cháy dữ dội hơn."
+      "Do NOT use the elevator during a fire. Power can fail and the shaft can fill with smoke.",
+      "Do NOT jump from a high floor unless firefighters have a rescue cushion below.",
+      "Do NOT throw windows wide open while the fire is growing. Extra oxygen makes it burn harder."
     ]
   },
   {
     "id": "dong_dat",
-    "name": "Động đất",
+    "name": "Earthquake",
     "icon": "🌎",
-    "tag": "Địa chất",
+    "tag": "Geology",
     "color": "#4E342E",
-    "summary": "Các rung chuyển đột ngột của vỏ Trái Đất làm sập đổ công trình, nứt toác mặt đường và đứt gãy hạ tầng.",
+    "summary": "Sudden shaking of the Earth's crust can collapse buildings, split roads, and break infrastructure.",
     "phases": {
       "before": [
-        "Gia cố các tủ cao, giá sách, gương nặng và đèn chùm gắn chặt vào tường.",
-        "Không treo tranh ảnh nặng hoặc gương phía trên đầu giường ngủ.",
-        "Biết rõ vị trí cầu dao điện và van ngắt gas tổng trong gia đình."
+        "Anchor tall cabinets, bookshelves, heavy mirrors, and chandeliers firmly to the wall.",
+        "Do not hang heavy pictures or mirrors above the bed.",
+        "Know where the main breaker and the main gas shutoff are."
       ],
       "during": [
-        "Thực hiện ngay quy tắc vàng: DROP - COVER - HOLD ON (HẠ THẤP - CHE CHẮN - BÁM CHẶT).",
-        "Chui xuống gầm bàn kiên cố hoặc sát mép tường góc chịu lực, lấy tay hoặc gối che đầu và gáy.",
-        "Nếu ở ngoài đường: tránh xa tòa nhà cao tầng, đường dây điện, biển quảng cáo, đứng ở khoảng sân trống rộng.",
-        "Nếu đang lái xe: tấp xe vào lề đường thoáng đãng, tắt máy và ngồi yên trong xe đến khi hết rung chấn."
+        "Use the rule at once: DROP, COVER, AND HOLD ON.",
+        "Get under a sturdy table or against a load-bearing corner wall, and cover your head and neck with your arms or a pillow.",
+        "If you are outside, stay clear of tall buildings, power lines, and signs. Stand in a wide open space.",
+        "If you are driving, pull over in an open area, turn off the engine, and stay in the car until the shaking stops."
       ],
       "after": [
-        "Cảnh giác các đợt DƯ CHẤN (Aftershocks) có thể xảy ra trong vài giờ hoặc vài ngày tới.",
-        "Đi giày đế dày để tránh đạp phải mảnh vỡ thủy tinh và bê tông rơi rụng.",
-        "Khóa ngay bình gas và ngắt điện để tránh hỏa hoạn do đứt gãy đường ống."
+        "Expect AFTERSHOCKS for hours or days.",
+        "Wear thick-soled shoes so you do not step on broken glass or concrete.",
+        "Shut off the gas and the power to prevent a fire from broken pipes."
       ]
     },
     "donts": [
-      "KHÔNG chạy hoảng loạn ra cầu thang bộ hoặc lao vào thang máy trong khi rung chấn đang diễn ra.",
-      "KHÔNG đứng gần cửa sổ kính, tủ kính hoặc tường ngăn mỏng."
+      "Do NOT rush onto a stairwell or into an elevator while the ground is still shaking.",
+      "Do NOT stand near glass windows, glass cabinets, or thin partition walls."
     ]
   }
 ]

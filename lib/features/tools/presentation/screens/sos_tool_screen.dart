@@ -69,7 +69,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                 Icon(Icons.lightbulb, size: 80, color: Colors.black54),
                 SizedBox(height: 16),
                 Text(
-                  'ĐÈN PIN MÀN HÌNH TỐI ĐA',
+                  'FULL-SCREEN FLASHLIGHT',
                   style: TextStyle(
                     color: Colors.black87,
                     fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                 ),
                 SizedBox(height: 8),
                 Text(
-                  'Chạm vào bất cứ đâu để tắt',
+                  'Tap anywhere to turn off',
                   style: TextStyle(color: Colors.black54, fontSize: 14),
                 ),
               ],
@@ -95,7 +95,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
     return Scaffold(
       backgroundColor: strobeBg,
       appBar: const CustomAppBar(
-        title: 'Công Cụ Cứu Nạn S.O.S',
+        title: 'S.O.S Rescue Tools',
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
@@ -115,7 +115,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                   SizedBox(width: 14),
                   Expanded(
                     child: Text(
-                      'Sử dụng tín hiệu ánh sáng chớp nháy cường độ cao để thu hút sự chú ý của trực thăng hoặc đội cứu hộ vào ban đêm.',
+                      'Use a high-intensity flashing light to attract helicopters or rescue teams at night.',
                       style: TextStyle(
                         fontSize: 13,
                         color: Colors.white,
@@ -165,7 +165,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                     ),
                     const SizedBox(height: 6),
                     Text(
-                      _isFlashing ? 'TẮT CHỚP' : 'CHỚP S.O.S',
+                      _isFlashing ? 'STOP FLASH' : 'S.O.S FLASH',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w900,
@@ -191,7 +191,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                 ),
                 icon: const Icon(Icons.highlight_rounded, size: 24, color: Colors.white),
                 label: const Text(
-                  'BẬT ĐÈN TRẮNG TOÀN MÀN HÌNH',
+                  'TURN ON FULL-SCREEN WHITE LIGHT',
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
                 onPressed: _toggleWhiteTorch,
@@ -215,7 +215,7 @@ class _SosToolScreenState extends State<SosToolScreen> {
                       Icon(Icons.graphic_eq, color: AppColors.emergencyRedLight, size: 20),
                       SizedBox(width: 8),
                       Text(
-                        'QUY TẮC PHÁT TÍN HIỆU CỨU HỘ QUỐC TẾ',
+                        'INTERNATIONAL DISTRESS SIGNALS',
                         style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.bold,
@@ -226,9 +226,9 @@ class _SosToolScreenState extends State<SosToolScreen> {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    '• Tín hiệu còi / gõ: 3 tiếng ngắn - 3 tiếng dài - 3 tiếng ngắn (··· ─── ···)\n'
-                    '• Ban ngày: Vẫy mảnh vải sáng màu (đỏ/cam/vàng) theo hình số 8.\n'
-                    '• Ban đêm: Bật chớp sáng ngắt quãng 3 lần rồi dừng 1 phút lặp lại.',
+                    '• Whistle or knock: 3 short, 3 long, 3 short (··· ─── ···)\n'
+                    '• By day: wave a bright cloth (red, orange, or yellow) in a figure-eight.\n'
+                    '• At night: flash the light 3 times, pause for 1 minute, then repeat.',
                     style: TextStyle(
                       fontSize: 13,
                       color: AppColors.textLightSecondary,

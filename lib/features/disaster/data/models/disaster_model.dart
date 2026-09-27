@@ -44,7 +44,7 @@ class DisasterModel {
       id: json['id'] as String,
       name: json['name'] as String,
       icon: json['icon'] as String,
-      tag: json['tag'] as String? ?? 'Thiên tai',
+      tag: json['tag'] as String? ?? 'Disaster',
       color: json['color'] as String? ?? '#D32F2F',
       summary: json['summary'] as String? ?? '',
       phases: DisasterPhases.fromJson(json['phases'] as Map<String, dynamic>? ?? {}),

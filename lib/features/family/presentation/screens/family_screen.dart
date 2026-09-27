@@ -36,7 +36,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
         .saveMeetingPoint(_meetingPointController.text.trim());
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text('Đã lưu địa điểm tập kết an toàn offline!'),
+        content: Text('Safe meeting point saved offline!'),
         backgroundColor: AppColors.safeGreen,
       ),
     );
@@ -53,31 +53,31 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         backgroundColor: AppColors.surfaceDark,
-        title: const Text('Thêm Thành Viên Gia Đình'),
+        title: const Text('Add Family Member'),
         content: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
               TextField(
                 controller: nameController,
-                decoration: const InputDecoration(labelText: 'Họ và tên *'),
+                decoration: const InputDecoration(labelText: 'Full name *'),
               ),
               TextField(
                 controller: relationController,
-                decoration: const InputDecoration(labelText: 'Mối quan hệ (Bố, Mẹ, Con...)'),
+                decoration: const InputDecoration(labelText: 'Relationship (parent, child...)'),
               ),
               TextField(
                 controller: phoneController,
                 keyboardType: TextInputType.phone,
-                decoration: const InputDecoration(labelText: 'Số điện thoại *'),
+                decoration: const InputDecoration(labelText: 'Phone number *'),
               ),
               TextField(
                 controller: bloodTypeController,
-                decoration: const InputDecoration(labelText: 'Nhóm máu (A, B, AB, O)'),
+                decoration: const InputDecoration(labelText: 'Blood type (A, B, AB, O)'),
               ),
               TextField(
                 controller: notesController,
-                decoration: const InputDecoration(labelText: 'Ghi chú y tế (Dị ứng thuốc...)'),
+                decoration: const InputDecoration(labelText: 'Medical notes (drug allergies...)'),
               ),
             ],
           ),
@@ -85,7 +85,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
-            child: const Text('Hủy', style: TextStyle(color: AppColors.textLightSecondary)),
+            child: const Text('Cancel', style: TextStyle(color: AppColors.textLightSecondary)),
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -108,7 +108,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                 Navigator.pop(ctx);
               }
             },
-            child: const Text('Lưu'),
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -121,11 +121,11 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
 
     return Scaffold(
       appBar: CustomAppBar(
-        title: 'Hồ Sơ An Toàn Gia Đình',
+        title: 'Family Safety Profile',
         actions: [
           IconButton(
             icon: const Icon(Icons.person_add_alt_1_rounded),
-            tooltip: 'Thêm thành viên',
+            tooltip: 'Add member',
             onPressed: () => _showAddMemberDialog(context),
           ),
         ],
@@ -149,7 +149,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                     Icon(Icons.meeting_room_outlined, color: AppColors.warningAmber, size: 22),
                     SizedBox(width: 8),
                     Text(
-                      'ĐIỂM HẸN TẬP KẾT AN TOÀN',
+                      'SAFE MEETING POINT',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
@@ -160,7 +160,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                 ),
                 const SizedBox(height: 6),
                 const Text(
-                  'Nơi các thành viên tập trung khi bị lạc nhau trong thiên tai và mất sóng điện thoại:',
+                  'Where family members gather if you are separated during a disaster and phones are down:',
                   style: TextStyle(fontSize: 12, color: AppColors.textLightSecondary),
                 ),
                 const SizedBox(height: 10),
@@ -170,7 +170,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                       child: TextField(
                         controller: _meetingPointController,
                         decoration: const InputDecoration(
-                          hintText: 'Ví dụ: Cổng trường Tiểu học Tân Bình, Tầng 3 UBND...',
+                          hintText: 'Example: school gate, 3rd floor of the town hall...',
                           hintStyle: TextStyle(fontSize: 13, color: AppColors.textLightSecondary),
                           border: OutlineInputBorder(),
                           contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 10),
@@ -181,7 +181,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                     IconButton(
                       icon: const Icon(Icons.check_circle, color: AppColors.safeGreenLight),
                       onPressed: _saveMeetingPoint,
-                      tooltip: 'Lưu điểm hẹn',
+                      tooltip: 'Save meeting point',
                     ),
                   ],
                 ),
@@ -191,7 +191,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
           const SizedBox(height: 16),
 
           const Text(
-            'DANH BẠ THÂN NHÂN KHẨN CẤP',
+            'EMERGENCY CONTACTS',
             style: TextStyle(
               fontSize: 15,
               fontWeight: FontWeight.w800,
@@ -216,12 +216,12 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                       const Icon(Icons.group_outlined, size: 48, color: AppColors.textLightSecondary),
                       const SizedBox(height: 12),
                       const Text(
-                        'Chưa có thông tin người thân',
+                        'No family contacts yet',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
                       ),
                       const SizedBox(height: 6),
                       const Text(
-                        'Thêm số điện thoại người thân để có thể gọi nhanh ngay cả khi hoảng loạn.',
+                        'Add a relative\'s phone number so you can call quickly even in a panic.',
                         textAlign: TextAlign.center,
                         style: TextStyle(fontSize: 13, color: AppColors.textLightSecondary),
                       ),
@@ -232,7 +232,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                           minimumSize: const Size(160, 42),
                         ),
                         icon: const Icon(Icons.add, size: 18),
-                        label: const Text('Thêm thành viên'),
+                        label: const Text('Add member'),
                         onPressed: () => _showAddMemberDialog(context),
                       ),
                     ],
@@ -299,7 +299,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                                     padding: const EdgeInsets.only(top: 4),
                                     child: Text(
                                       [
-                                        if (member.bloodType.isNotEmpty) 'Nhóm máu: ${member.bloodType}',
+                                        if (member.bloodType.isNotEmpty) 'Blood type: ${member.bloodType}',
                                         if (member.medicalNotes.isNotEmpty) member.medicalNotes,
                                       ].join(' • '),
                                       style: const TextStyle(
@@ -313,12 +313,12 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
                           ),
                           IconButton(
                             icon: const Icon(Icons.phone, color: AppColors.safeGreenLight),
-                            tooltip: 'Gọi ngay',
+                            tooltip: 'Call now',
                             onPressed: () => LauncherUtils.makePhoneCall(member.phone),
                           ),
                           IconButton(
                             icon: const Icon(Icons.delete_outline, color: Colors.white38, size: 20),
-                            tooltip: 'Xóa',
+                            tooltip: 'Delete',
                             onPressed: () {
                               ref
                                   .read(familyNotifierProvider.notifier)
@@ -333,7 +333,7 @@ class _FamilyScreenState extends ConsumerState<FamilyScreen> {
               );
             },
             loading: () => const Center(child: CircularProgressIndicator()),
-            error: (err, _) => Text('Lỗi: $err'),
+            error: (err, _) => Text('Error: $err'),
           ),
         ],
       ),

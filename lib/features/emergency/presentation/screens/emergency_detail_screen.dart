@@ -42,7 +42,7 @@ class _EmergencyDetailScreenState extends State<EmergencyDetailScreen> {
             ),
             icon: const Icon(Icons.phone_in_talk, size: 24),
             label: Text(
-              'GỌI CỨU HỘ ${situation.callNumber}',
+              'CALL RESCUE ${situation.callNumber}',
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             onPressed: () => LauncherUtils.makePhoneCall(situation.callNumber),
@@ -77,7 +77,7 @@ class _EmergencyDetailScreenState extends State<EmergencyDetailScreen> {
                             borderRadius: BorderRadius.circular(6),
                           ),
                           child: Text(
-                            isCritical ? '🚨 KHẨN CẤP ĐẶC BIỆT' : '⚠️ NGUY CƠ CAO',
+                            isCritical ? '🚨 CRITICAL EMERGENCY' : '⚠️ HIGH RISK',
                             style: const TextStyle(
                               fontSize: 11,
                               fontWeight: FontWeight.w800,
@@ -138,7 +138,7 @@ class _EmergencyDetailScreenState extends State<EmergencyDetailScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  'HÀNH ĐỘNG TỪNG BƯỚC',
+                  'STEP-BY-STEP ACTIONS',
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w800,
@@ -147,7 +147,7 @@ class _EmergencyDetailScreenState extends State<EmergencyDetailScreen> {
                   ),
                 ),
                 Text(
-                  '${_completedSteps.length}/${situation.steps.length} đã xong',
+                  '${_completedSteps.length}/${situation.steps.length} done',
                   style: const TextStyle(
                     fontSize: 13,
                     color: AppColors.textLightSecondary,

@@ -14,7 +14,7 @@ class EmergencyTriageScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: const CustomAppBar(
-        title: '🚨 Tôi Đang Gặp Nguy Hiểm',
+        title: '🚨 I Am in Danger',
       ),
       body: situationsAsync.when(
         data: (situations) {
@@ -34,7 +34,7 @@ class EmergencyTriageScreen extends ConsumerWidget {
                     SizedBox(width: 12),
                     Expanded(
                       child: Text(
-                        'Chọn nhanh tình huống bạn đang đối mặt để nhận hướng dẫn sống còn ngay lập tức!',
+                        'Pick the situation you are facing to get life-saving guidance right away.',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
@@ -122,7 +122,7 @@ class EmergencyTriageScreen extends ConsumerWidget {
         },
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (err, stack) => Center(
-          child: Text('Lỗi tải dữ liệu: $err', style: const TextStyle(color: Colors.white)),
+          child: Text('Failed to load data: $err', style: const TextStyle(color: Colors.white)),
         ),
       ),
     );

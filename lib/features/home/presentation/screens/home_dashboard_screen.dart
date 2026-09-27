@@ -22,11 +22,11 @@ class HomeDashboardScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: CustomAppBar(
-        title: 'SafeVN Sinh Tồn',
+        title: 'SafeVN Survival',
         actions: [
           IconButton(
             icon: const Icon(Icons.flash_on_rounded, color: AppColors.warningAmber),
-            tooltip: 'Đèn & Tín hiệu S.O.S',
+            tooltip: 'Light & S.O.S signal',
             onPressed: () {
               Navigator.push(
                 context,
@@ -36,7 +36,7 @@ class HomeDashboardScreen extends ConsumerWidget {
           ),
           IconButton(
             icon: const Icon(Icons.family_restroom_rounded, color: AppColors.infoBlueLight),
-            tooltip: 'Hồ sơ gia đình',
+            tooltip: 'Family profile',
             onPressed: () {
               Navigator.push(
                 context,
@@ -51,8 +51,8 @@ class HomeDashboardScreen extends ConsumerWidget {
         children: [
           // High Urgency SOS Banner
           DangerCard(
-            title: 'TÔI ĐANG GẶP NGUY HIỂM',
-            subtitle: 'Chạm ngay để nhận hướng dẫn thoát nạn trong 5 phút đầu tiên!',
+            title: 'I AM IN DANGER',
+            subtitle: 'Tap now for escape guidance in the first 5 minutes!',
             icon: Icons.emergency,
             onTap: () {
               Navigator.push(
@@ -67,11 +67,11 @@ class HomeDashboardScreen extends ConsumerWidget {
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
             child: Row(
               children: [
-                _buildQuickCallButton('112', 'CỨU NẠN', AppColors.emergencyRed),
+                _buildQuickCallButton('112', 'RESCUE', AppColors.emergencyRed),
                 const SizedBox(width: 8),
-                _buildQuickCallButton('114', 'CHÁY/CỨU SẬP', AppColors.warningOrange),
+                _buildQuickCallButton('114', 'FIRE', AppColors.warningOrange),
                 const SizedBox(width: 8),
-                _buildQuickCallButton('115', 'CẤP CỨU', AppColors.safeGreen),
+                _buildQuickCallButton('115', 'MEDICAL', AppColors.safeGreen),
               ],
             ),
           ),
@@ -85,7 +85,7 @@ class HomeDashboardScreen extends ConsumerWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  'ỨNG PHÓ THIÊN TAI TRỌNG ĐIỂM',
+                  'KEY DISASTER GUIDES',
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.w800,
@@ -97,7 +97,7 @@ class HomeDashboardScreen extends ConsumerWidget {
                   onPressed: () {
                     // Switch tab or handled via bottom navigation
                   },
-                  child: const Text('Xem tất cả', style: TextStyle(fontSize: 12)),
+                  child: const Text('See all', style: TextStyle(fontSize: 12)),
                 ),
               ],
             ),
@@ -166,7 +166,7 @@ class HomeDashboardScreen extends ConsumerWidget {
             ),
             error: (err, _) => Padding(
               padding: const EdgeInsets.all(16),
-              child: Text('Lỗi: $err'),
+              child: Text('Error: $err'),
             ),
           ),
 
@@ -176,7 +176,7 @@ class HomeDashboardScreen extends ConsumerWidget {
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 16),
             child: Text(
-              'KỸ NĂNG SƠ CỨU CẤP THIẾT',
+              'CRITICAL FIRST AID',
               style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.w800,
@@ -201,7 +201,7 @@ class HomeDashboardScreen extends ConsumerWidget {
                         style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
                       ),
                       subtitle: Text(
-                        'Thời gian vàng: ${guide.goldenTime}',
+                        'Golden hour: ${guide.goldenTime}',
                         style: const TextStyle(fontSize: 12, color: AppColors.warningAmber),
                       ),
                       trailing: const Icon(Icons.arrow_forward_ios, size: 14),
@@ -242,7 +242,7 @@ class HomeDashboardScreen extends ConsumerWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'CAM KẾT 100% OFFLINE',
+                        '100% OFFLINE GUARANTEE',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
@@ -251,7 +251,7 @@ class HomeDashboardScreen extends ConsumerWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        'Ứng dụng không cần WiFi hay dữ liệu 4G/5G. Khi mất mạng toàn bộ kiến thức sinh tồn đều sẵn sàng bảo vệ bạn và gia đình.',
+                        'This app needs no Wi-Fi or mobile data. If the network goes down, every survival guide is still ready to protect you and your family.',
                         style: TextStyle(
                           fontSize: 12,
                           color: AppColors.textLightSecondary,

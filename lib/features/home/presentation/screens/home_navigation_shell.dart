@@ -41,22 +41,22 @@ class _HomeNavigationShellState extends State<HomeNavigationShell> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
             activeIcon: Icon(Icons.home_filled),
-            label: 'Tổng quan',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.thunderstorm_outlined),
             activeIcon: Icon(Icons.thunderstorm_rounded),
-            label: 'Thiên tai',
+            label: 'Disasters',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.medical_services_outlined),
             activeIcon: Icon(Icons.medical_services_rounded),
-            label: 'Sơ cứu',
+            label: 'First aid',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.backpack_outlined),
             activeIcon: Icon(Icons.backpack_rounded),
-            label: 'Túi 72h',
+            label: '72h kit',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.phone_in_talk_outlined),

@@ -80,7 +80,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
             ),
             icon: const Icon(Icons.local_hospital, size: 24),
             label: const Text(
-              'GỌI CẤP CỨU 115 NGAY',
+              'CALL 115 NOW',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             onPressed: () => LauncherUtils.makePhoneCall('115'),
@@ -135,7 +135,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
                               border: Border.all(color: AppColors.warningOrange, width: 0.8),
                             ),
                             child: Text(
-                              '⏱️ Thời gian vàng: ${guide.goldenTime}',
+                              '⏱️ Golden hour: ${guide.goldenTime}',
                               style: const TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w600,
@@ -180,7 +180,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Máy đếm nhịp ép tim (110 nhịp/phút)',
+                                'Chest-compression metronome (110 beats/min)',
                                 style: TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.bold,
@@ -188,7 +188,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
                                 ),
                               ),
                               Text(
-                                'Ấn lồng ngực theo nhịp chớp sáng',
+                                'Compress the chest in time with the flash',
                                 style: TextStyle(
                                   fontSize: 12,
                                   color: AppColors.textLightSecondary,
@@ -205,7 +205,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
                           ),
                           onPressed: _toggleCprMetronome,
                           child: Text(
-                            _isMetronomeActive ? 'DỪNG' : 'BẬT NHỊP',
+                            _isMetronomeActive ? 'STOP' : 'START BEAT',
                             style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -230,7 +230,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
 
             // Step by step
             const Text(
-              'QUY TRÌNH SƠ CỨU CHUẨN',
+              'STANDARD FIRST AID STEPS',
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w800,
@@ -266,7 +266,7 @@ class _FirstAidDetailScreenState extends State<FirstAidDetailScreen> {
                         Icon(Icons.warning_amber_rounded, color: AppColors.warningAmber, size: 20),
                         SizedBox(width: 8),
                         Text(
-                          'CẢNH BÁO & SAI LẦM NGUY HIỂM',
+                          'WARNINGS & DANGEROUS MISTAKES',
                           style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.bold,

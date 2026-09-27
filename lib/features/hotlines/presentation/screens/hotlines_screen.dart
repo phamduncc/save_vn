@@ -14,7 +14,7 @@ class HotlinesScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: const CustomAppBar(
-        title: 'Đường Dây Nóng Cứu Hộ',
+        title: 'Emergency Hotlines',
       ),
       body: hotlinesAsync.when(
         data: (hotlines) {
@@ -38,7 +38,7 @@ class HotlinesScreen extends ConsumerWidget {
                     SizedBox(width: 10),
                     Expanded(
                       child: Text(
-                        'Các đầu số 112, 113, 114, 115 là miễn phí cuộc gọi và hoạt động 24/7 trên toàn quốc.',
+                        'Numbers 112, 113, 114, and 115 are free to call and available 24/7 nationwide.',
                         style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w500,
@@ -53,7 +53,7 @@ class HotlinesScreen extends ConsumerWidget {
 
               // Primary 4 hotlines grid
               const Text(
-                'TỔNG ĐÀI KHẨN CẤP QUỐC GIA',
+                'NATIONAL EMERGENCY LINES',
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w800,
@@ -141,7 +141,7 @@ class HotlinesScreen extends ConsumerWidget {
                                   ),
                                   const SizedBox(width: 4),
                                   Text(
-                                    'Bấm để gọi',
+                                    'Tap to call',
                                     style: TextStyle(
                                       fontSize: 11,
                                       fontWeight: FontWeight.bold,
@@ -165,7 +165,7 @@ class HotlinesScreen extends ConsumerWidget {
 
               // Other Hotlines
               const Text(
-                'CƠ QUAN PHÒNG CHỐNG & CỨU TRỢ',
+                'RESPONSE & RELIEF AGENCIES',
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w800,
@@ -220,7 +220,7 @@ class HotlinesScreen extends ConsumerWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                       ),
                       onPressed: () => LauncherUtils.makePhoneCall(hotline.number),
-                      child: const Text('Gọi', style: TextStyle(fontWeight: FontWeight.bold)),
+                      child: const Text('Call', style: TextStyle(fontWeight: FontWeight.bold)),
                     ),
                   ),
                 );
@@ -230,7 +230,7 @@ class HotlinesScreen extends ConsumerWidget {
         },
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (err, stack) => Center(
-          child: Text('Lỗi: $err', style: const TextStyle(color: Colors.white)),
+          child: Text('Error: $err', style: const TextStyle(color: Colors.white)),
         ),
       ),
     );

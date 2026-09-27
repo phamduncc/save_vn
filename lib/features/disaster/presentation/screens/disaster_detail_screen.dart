@@ -133,7 +133,7 @@ class _DisasterDetailScreenState extends State<DisasterDetailScreen>
                                     color: AppColors.emergencyRedLight, size: 20),
                                 SizedBox(width: 8),
                                 Text(
-                                  'TUYỆT ĐỐI KHÔNG NÊN LÀM',
+                                  'NEVER DO THIS',
                                   style: TextStyle(
                                     fontSize: 14,
                                     fontWeight: FontWeight.w800,
@@ -187,9 +187,9 @@ class _DisasterDetailScreenState extends State<DisasterDetailScreen>
                   unselectedLabelColor: AppColors.textLightSecondary,
                   labelStyle: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
                   tabs: const [
-                    Tab(text: 'TRƯỚC BÃO / LŨ'),
-                    Tab(text: 'ĐANG XẢY RA'),
-                    Tab(text: 'SAU THIÊN TAI'),
+                    Tab(text: 'BEFORE'),
+                    Tab(text: 'DURING'),
+                    Tab(text: 'AFTER'),
                   ],
                 ),
               ),
@@ -211,7 +211,7 @@ class _DisasterDetailScreenState extends State<DisasterDetailScreen>
   Widget _buildPhaseList(List<String> items, Color accentColor) {
     if (items.isEmpty) {
       return const Center(
-        child: Text('Chưa có dữ liệu hướng dẫn cho giai đoạn này.',
+        child: Text('No guidance for this phase yet.',
             style: TextStyle(color: AppColors.textLightSecondary)),
       );
     }

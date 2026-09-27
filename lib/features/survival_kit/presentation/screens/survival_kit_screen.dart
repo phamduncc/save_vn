@@ -12,7 +12,7 @@ class SurvivalKitScreen extends ConsumerStatefulWidget {
 }
 
 class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
-  String _selectedCategory = 'Tất cả';
+  String _selectedCategory = 'All';
 
   @override
   Widget build(BuildContext context) {
@@ -20,10 +20,10 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
 
     return Scaffold(
       appBar: CustomAppBar(
-        title: 'Túi Cứu Sinh 72h',
+        title: '72-Hour Survival Kit',
         actions: [
           IconButton(
-            tooltip: 'Đặt lại danh sách',
+            tooltip: 'Reset checklist',
             icon: const Icon(Icons.refresh_rounded),
             onPressed: () => _confirmReset(context),
           ),
@@ -35,8 +35,8 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
           final checkedCount = items.where((i) => i.isChecked).length;
           final progressPercent = totalCount > 0 ? (checkedCount / totalCount) : 0.0;
 
-          final List<String> categories = ['Tất cả', ...items.map((i) => i.category).toSet()];
-          final filteredItems = _selectedCategory == 'Tất cả'
+          final List<String> categories = ['All', ...items.map((i) => i.category).toSet()];
+          final filteredItems = _selectedCategory == 'All'
               ? items
               : items.where((i) => i.category == _selectedCategory).toList();
 
@@ -65,7 +65,7 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
                             Text('🎒', style: TextStyle(fontSize: 24)),
                             SizedBox(width: 8),
                             Text(
-                              'Độ sẵn sàng của túi',
+                              'Kit readiness',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -104,7 +104,7 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
                     Align(
                       alignment: Alignment.centerRight,
                       child: Text(
-                        '$checkedCount / $totalCount vật dụng đã sẵn sàng',
+                        '$checkedCount / $totalCount items ready',
                         style: const TextStyle(
                           fontSize: 12,
                           color: AppColors.textLightSecondary,
@@ -197,7 +197,7 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
                                   borderRadius: BorderRadius.circular(4),
                                 ),
                                 child: const Text(
-                                  'Cốt lõi',
+                                  'Essential',
                                   style: TextStyle(
                                     fontSize: 10,
                                     fontWeight: FontWeight.bold,
@@ -229,7 +229,7 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
         },
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (err, stack) => Center(
-          child: Text('Lỗi: $err', style: const TextStyle(color: Colors.white)),
+          child: Text('Error: $err', style: const TextStyle(color: Colors.white)),
         ),
       ),
     );
@@ -240,14 +240,14 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         backgroundColor: AppColors.surfaceDark,
-        title: const Text('Đặt lại danh sách?'),
+        title: const Text('Reset checklist?'),
         content: const Text(
-          'Bạn có muốn xóa toàn bộ đánh dấu hoàn thành trên túi cứu sinh để bắt đầu kiểm tra lại từ đầu không?',
+          'Clear every completed mark on the survival kit and start the checklist over?',
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
-            child: const Text('Hủy', style: TextStyle(color: AppColors.textLightSecondary)),
+            child: const Text('Cancel', style: TextStyle(color: AppColors.textLightSecondary)),
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -258,7 +258,7 @@ class _SurvivalKitScreenState extends ConsumerState<SurvivalKitScreen> {
               Navigator.pop(ctx);
               ref.read(survivalKitNotifierProvider.notifier).resetAll();
             },
-            child: const Text('Đặt lại'),
+            child: const Text('Reset'),
           ),
         ],
       ),

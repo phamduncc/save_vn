@@ -1,167 +1,167 @@
 [
   {
     "id": "xe_ngap_nuoc",
-    "title": "Xe ô tô bị ngập nước",
+    "title": "Car trapped in floodwater",
     "icon": "🚗",
     "severity": "CRITICAL",
     "callNumber": "114",
-    "quickSummary": "Bình tĩnh! Hạ kính hoặc phá kính ngay trước khi áp lực nước ép chặt cửa xe.",
+    "quickSummary": "Stay calm. Lower or break a window before water pressure seals the doors.",
     "steps": [
-      "1. Giữ bình tĩnh tối đa, tuyệt đối không hoảng loạn la hét làm tiêu hao oxy.",
-      "2. TẮT ĐỘNG CƠ ngay để tránh chập nổ và thủy kích cuốn xe trôi sâu hơn.",
-      "3. THÁO DÂY AN TOÀN cho bạn và mở dây an toàn cho trẻ em/người ngồi cùng.",
-      "4. MỞ CỬA SỔ NGAY LẬP TỨC: Khi nước chưa ngập quá nửa cửa kính, hệ thống điện vẫn hoạt động trong vài chục giây.",
-      "5. Nếu cửa kính điện kẹt: Dùng búa phá kính cứu hộ gõ mạnh vào 4 GÓC của kính bên hông (kính lái không thể đập vỡ dễ dàng).",
-      "6. Nếu không có búa: Rút thanh gối tựa đầu ghế lái, dùng 2 chốt sắt nhọn cắm vào khe kính và bẩy mạnh.",
-      "7. Chờ áp lực nước cân bằng: Nếu xe chìm sâu, cửa xe không thể mở do chênh lệch áp suất. Khi nước ngập ngang ngực trong xe, hít một hơi sâu và đẩy mạnh cửa bung ra để bơi lên.",
-      "8. Bơi thẳng lên mặt nước theo bóng khí và trèo lên mui xe nếu có thể."
+      "1. Stay as calm as you can. Do not panic and shout, which wastes oxygen.",
+      "2. TURN THE ENGINE OFF immediately so a short circuit or water intake does not drag the car deeper.",
+      "3. UNBUCKLE YOUR SEAT BELT, and unbuckle children and other passengers.",
+      "4. OPEN A WINDOW AT ONCE. Before water rises past the middle of the glass, the electrics may still work for a few dozen seconds.",
+      "5. If a power window is stuck, strike a SIDE window at the four CORNERS with a rescue hammer. Windshields are much harder to break.",
+      "6. If you have no hammer, pull out a headrest and jam the two metal posts into the window seam, then lever hard.",
+      "7. Wait until pressure equalizes. A deeply submerged door will not open. When water reaches chest height inside the car, take a deep breath and push the door open to swim out.",
+      "8. Swim straight up toward the surface, following air bubbles, and climb onto the roof if you can."
     ]
   },
   {
     "id": "nuoc_dang_vao_nha",
-    "title": "Nước lũ đang dâng vào nhà",
+    "title": "Floodwater rising into the house",
     "icon": "🌊",
     "severity": "HIGH",
     "callNumber": "112",
-    "quickSummary": "Ngắt cầu dao điện ngay lập tức và di chuyển lên tầng cao cùng túi cứu sinh.",
+    "quickSummary": "Cut the main power at once and move upstairs with your survival kit.",
     "steps": [
-      "1. NGẮT CẦU DAO ĐIỆN TỔNG (Aptomat) và khóa bình gas ngay khi nước chạm bậu cửa.",
-      "2. Thu dọn nhanh: Điện thoại, sạc dự phòng, đèn pin, nước uống, thuốc men và giấy tờ tùy thân vào balo chống nước.",
-      "3. Di chuyển toàn bộ người già, trẻ nhỏ lên tầng 2 hoặc gác xép cao nhất.",
-      "4. Mang theo dụng cụ phá mái (búa, xà beng, kìm) đề phòng nước ngập lút trần gác lửng phải thoát ra mái.",
-      "5. Mặc sẵn áo phao hoặc buộc dây can nhựa rỗng làm phao hỗ trợ cho các thành viên.",
-      "6. Treo cờ hoặc vẫy vải đỏ/vàng sáng màu trên nóc nhà và gọi 112 để báo tọa độ cứu nạn."
+      "1. SWITCH OFF THE MAIN BREAKER and shut off the gas as soon as water reaches the door sill.",
+      "2. Quickly pack your phone, power bank, flashlight, drinking water, medicine, and ID into a waterproof bag.",
+      "3. Move older adults and young children to the second floor or the highest loft.",
+      "4. Bring tools to break through the roof (hammer, crowbar, pliers) in case water covers the loft ceiling and you must escape onto the roof.",
+      "5. Put on life jackets, or tie empty plastic jerrycans together as makeshift floats.",
+      "6. Hang or wave a bright red or yellow cloth from the roof and call 112 with your location."
     ]
   },
   {
     "id": "chay_nha_khoi_doc",
-    "title": "Nhà đang cháy & Khói mù mịt",
+    "title": "House fire and thick smoke",
     "icon": "🔥",
     "severity": "CRITICAL",
     "callNumber": "114",
-    "quickSummary": "Hạ thấp người, bò sát sàn, dùng khăn ướt bịt mũi miệng thoát ra lối thoát hiểm.",
+    "quickSummary": "Stay low, crawl along the floor, and cover your nose and mouth with a wet cloth as you escape.",
     "steps": [
-      "1. Hô hoán thật lớn 'CHÁY! CHÁY!' để cảnh báo mọi người và bấm chuông báo động.",
-      "2. Dùng khăn, khẩu trang hoặc áo nhúng đẫm nước bịt chặt mũi và miệng.",
-      "3. CÚI KHOM HOẶC BÒ SÁT MẶT SÀN: Lớp không khí sạch và mát luôn nằm ở độ cao dưới 30-50cm.",
-      "4. Sờ mu bàn tay vào tay nắm cửa trước khi mở. Nếu tay nắm NÓNG RÁT, tuyệt đối KHÔNG mở cửa.",
-      "5. Nếu lối thoát bị chặn: Vào một phòng có cửa sổ hướng ra ngoài, chèn kín các khe cửa bằng giẻ ướt để chặn khói độc tràn vào.",
-      "6. Mở cửa sổ đón khí tươi, vẫy vải sáng màu, gọi ngay 114 thông báo tầng và vị trí phòng đang mắc kẹt.",
-      "7. Tuyệt đối không trốn vào gầm giường, tủ quần áo hoặc nhà vệ sinh kín."
+      "1. Shout \"FIRE! FIRE!\" to warn everyone and sound the alarm.",
+      "2. Soak a cloth, mask, or shirt and cover your nose and mouth tightly.",
+      "3. CROUCH OR CRAWL ALONG THE FLOOR. Cleaner, cooler air stays in the lowest 30–50 cm.",
+      "4. Feel the door handle with the back of your hand before opening it. If it is BURNING HOT, do NOT open the door.",
+      "5. If the exit is blocked, go into a room with an outside window and seal the door gaps with wet cloth so toxic smoke cannot pour in.",
+      "6. Open the window for fresh air, wave a bright cloth, and call 114 with the floor and room where you are trapped.",
+      "7. Never hide under a bed, in a wardrobe, or in a sealed bathroom."
     ]
   },
   {
     "id": "co_set_du_doi",
-    "title": "Có dông sét dữ dội gần bạn",
+    "title": "Severe lightning nearby",
     "icon": "⚡",
     "severity": "HIGH",
     "callNumber": "115",
-    "quickSummary": "Tránh xa cây to, cột điện và ngồi xổm chụm hai chân xuống đất.",
+    "quickSummary": "Stay away from tall trees and power poles. Crouch with your feet together.",
     "steps": [
-      "1. Nếu bạn cảm thấy tóc dựng đứng hoặc da ngứa ran: Sét sắp đánh ngay cạnh bạn!",
-      "2. NGỒI XỔM NGAY: Thu nhỏ diện tích cơ thể tối đa, hai chân khép chặt sát nhau, đầu gập sát đầu gối, hai tay ôm bịt tai.",
-      "3. CHỈ TIẾP XÚC MẶT ĐẤT BẰNG MŨI CHÂN (giảm thiểu dòng điện bước lan truyền qua tim).",
-      "4. TUYỆT ĐỐI KHÔNG nằm phẳng ra đất.",
-      "5. Bỏ rơi các vật kim loại (cuốc xẻng, cần câu, gậy sắt, ô dù có nan thép) cách xa ít nhất 5 mét.",
-      "6. Tránh xa cây đơn độc, hồ ao sông suối và các kết cấu kim loại mở.",
-      "7. Nếu ở trong ô tô: Hãy ngồi yên trong xe, đóng kín cửa kính (khung xe kim loại tạo lồng Faraday bảo vệ bạn an toàn)."
+      "1. If your hair stands up or your skin tingles, lightning is about to strike very close.",
+      "2. CROUCH AT ONCE. Make yourself as small as possible: feet pressed together, head on your knees, hands over your ears.",
+      "3. TOUCH THE GROUND ONLY WITH THE BALLS OF YOUR FEET, to limit step voltage through the heart.",
+      "4. NEVER lie flat on the ground.",
+      "5. Drop metal objects (hoe, shovel, fishing rod, steel-ribbed umbrella) at least 5 meters away.",
+      "6. Stay away from lone trees, ponds, rivers, streams, and open metal structures.",
+      "7. If you are in a car, stay inside with the windows closed. The metal body acts as a Faraday cage."
     ]
   },
   {
     "id": "nguy_co_sat_lo",
-    "title": "Nguy cơ sạt lở đất đồi",
+    "title": "Landslide risk on a hillside",
     "icon": "⛰️",
-    "tag": "Nguy hiểm tức thì",
+    "tag": "Immediate danger",
     "severity": "CRITICAL",
     "callNumber": "112",
-    "quickSummary": "Chạy thoát sang hai bên sườn đồi, không chạy xuôi theo hướng dòng lũ bùn.",
+    "quickSummary": "Run sideways across the slope. Do not run downhill with the mudflow.",
     "steps": [
-      "1. Nếu nghe tiếng gầm rú bất thường, tiếng nứt vỡ lớn hoặc thấy sườn dốc trượt chuyển: BỎ LẠI ĐỒ ĐẠC VÀ CHẠY NGAY.",
-      "2. HƯỚNG CHẠY: Chạy vuông góc sang HAI BÊN sườn đồi (trái hoặc phải), tuyệt đối không chạy xuôi dốc theo lòng suối.",
-      "3. Tránh xa các thung lũng hẹp hoặc khe xói thoát nước.",
-      "4. Nếu không thể chạy thoát: Nấp sau một gốc cây đại thụ to hoặc kết cấu đá tảng tự nhiên kiên cố.",
-      "5. Cuộn người lại thành khối cầu, dùng hai cánh tay đan chặt bảo vệ đầu, cổ và ngực."
+      "1. If you hear an unusual roar or loud cracking, or see the slope start to move, DROP YOUR BELONGINGS AND RUN.",
+      "2. DIRECTION: run at a right angle to either SIDE of the slope. Never run downhill along a stream bed.",
+      "3. Stay out of narrow valleys and drainage gullies.",
+      "4. If you cannot get clear, shelter behind a large mature tree or a solid natural boulder.",
+      "5. Curl into a ball and lock your arms over your head, neck, and chest."
     ]
   },
   {
     "id": "chay_mau_nang",
-    "title": "Người bị thương chảy máu ồ ạt",
+    "title": "Severe bleeding",
     "icon": "🩸",
     "severity": "CRITICAL",
     "callNumber": "115",
-    "quickSummary": "Ép trực tiếp thật mạnh lên vết thương bằng gạc hoặc vải sạch liên tục không buông.",
+    "quickSummary": "Press hard and continuously on the wound with gauze or a clean cloth. Do not let go.",
     "steps": [
-      "1. Gọi ngay Cấp cứu 115 hoặc nhờ người bên cạnh gọi giúp.",
-      "2. Dùng gạc tiệt trùng hoặc khăn/vải sạch ép thẳng và đè thật mạnh trực tiếp lên miệng vết thương.",
-      "3. GIỮ ÁP LỰC ÉP LIÊN TỤC ít nhất 10 - 15 phút, không nhấc gạc ra kiểm tra làm vỡ cục máu đông.",
-      "4. Nếu máu thấm ướt đẫm gạc: Đặt thêm lớp gạc mới lên trên và tiếp tục ép chặt, không gỡ bỏ lớp cũ.",
-      "5. Nâng cao chi bị thương (tay/chân) cao hơn mức tim nạn nhân nếu không nghi ngờ gãy xương.",
-      "6. Nếu máu phun thành tia (đứt động mạch chi) và ép trực tiếp không cầm được: Cân nhắc buộc garo cách mép vết thương 5-7cm về phía gần tim và ghi lại giờ buộc."
+      "1. Call 115 at once, or ask someone nearby to call.",
+      "2. Press sterile gauze or a clean cloth straight down on the wound with firm pressure.",
+      "3. KEEP PRESSURE ON for at least 10–15 minutes. Do not lift the gauze to look, or the clot may break.",
+      "4. If blood soaks through, add a new layer on top and keep pressing. Do not remove the first layer.",
+      "5. Raise the injured arm or leg above the heart unless you suspect a fracture.",
+      "6. If blood spurts (a severed artery) and direct pressure fails, consider a tourniquet 5–7 cm above the wound, toward the heart, and write down the time it was applied."
     ]
   },
   {
     "id": "nguoi_duoi_nuoc",
-    "title": "Có người bị đuối nước",
+    "title": "Someone is drowning",
     "icon": "🏊",
     "severity": "CRITICAL",
     "callNumber": "115",
-    "quickSummary": "Quăng phao/vật nổi, không nhảy xuống nếu không có kỹ năng cứu hộ nước sâu.",
+    "quickSummary": "Throw a float. Do not jump in unless you are trained in deep-water rescue.",
     "steps": [
-      "1. Hô hoán thật to để kêu gọi nhiều người trợ giúp xung quanh.",
-      "2. Ưu tiên CỨU NẠN TỪ BỜ: Quăng phao bơi, can nhựa rỗng buộc dây, cành cây dài hoặc dây thừng để kéo nạn nhân vào.",
-      "3. Tuyệt đối không nhảy xuống bơi cứu nếu không có kỹ năng cứu hộ chuyên nghiệp (nạn nhân hoảng loạn sẽ dìm người cứu).",
-      "4. Khi đưa được nạn nhân lên bờ: Đặt nằm ngửa trên mặt phẳng cứng khô ráo.",
-      "5. Nếu nạn nhân bất tỉnh và KHÔNG thở bình thường: Tiến hành ÉP TIM CPR NGAY LẬP TỨC (100-120 lần/phút).",
-      "6. KHÔNG vác nạn nhân dốc ngược chạy vòng quanh (làm chậm trễ thời gian vàng ép tim cứu não)."
+      "1. Shout loudly so more people come to help.",
+      "2. RESCUE FROM SHORE FIRST. Throw a swim float, an empty plastic jerrycan on a rope, a long branch, or a rope, then pull the person in.",
+      "3. Do not jump in unless you are a trained water rescuer. A panicking person can pull you under.",
+      "4. Once they are ashore, lay them on their back on a firm, dry surface.",
+      "5. If they are unconscious and NOT breathing normally, start CPR chest compressions at once (100–120 per minute).",
+      "6. Do NOT carry them upside down and run in circles. That wastes the minutes needed for CPR."
     ]
   },
   {
     "id": "ngat_ngung_tho",
-    "title": "Người bất tỉnh / Ngừng thở (CPR)",
+    "title": "Unconscious or not breathing (CPR)",
     "icon": "❤️",
     "severity": "CRITICAL",
     "callNumber": "115",
-    "quickSummary": "Gọi 115 và ép tim lồng ngực liên tục với tốc độ 100-120 lần/phút.",
+    "quickSummary": "Call 115 and compress the chest continuously at 100–120 times per minute.",
     "steps": [
-      "1. Kiểm tra phản ứng: Vỗ nhẹ hai vai và gọi to 'Bạn có nghe tôi nói không?'.",
-      "2. Kiểm tra nhịp thở trong 5-10 giây (nhìn sự phập phồng của lồng ngực).",
-      "3. Nếu không thở hoặc chỉ ngáp cá: Bật loa ngoài điện thoại gọi 115 ngay.",
-      "4. Đặt gót bàn tay vào chính giữa nửa dưới xương ức của nạn nhân, bàn tay kia đan lên trên.",
-      "5. ÉP TIM MẠNH VÀ NHANH: Độ sâu 5 - 6 cm, tần số 100 - 120 nhịp/phút (nhịp bài hát Stayin' Alive).",
-      "6. Để lồng ngực nở lại hoàn toàn sau mỗi lần ấn xuống.",
-      "7. Ép liên tục không dừng lại cho đến khi nhân viên y tế đến hoặc nạn nhân có dấu hiệu thở lại."
+      "1. Check for a response: tap both shoulders and shout \"Can you hear me?\"",
+      "2. Check breathing for 5–10 seconds by watching the chest rise and fall.",
+      "3. If they are not breathing, or only gasping, put the phone on speaker and call 115.",
+      "4. Place the heel of one hand on the center of the lower half of the breastbone and lace the other hand on top.",
+      "5. PUSH HARD AND FAST: 5–6 cm deep, at 100–120 beats per minute (the rhythm of \"Stayin' Alive\").",
+      "6. Let the chest recoil fully after each compression.",
+      "7. Keep going without stopping until medical help arrives or the person starts breathing again."
     ]
   },
   {
     "id": "ran_can",
-    "title": "Bị rắn độc cắn",
+    "title": "Venomous snakebite",
     "icon": "🐍",
     "severity": "HIGH",
     "callNumber": "115",
-    "quickSummary": "Bất động chi bị cắn, giữ thấp hơn tim, đưa ngay đến cơ sở y tế có huyết thanh.",
+    "quickSummary": "Keep the bitten limb still and below the heart, and get to a hospital that stocks antivenom.",
     "steps": [
-      "1. Tránh xa tầm tấn công của rắn; cố gắng ghi nhớ màu sắc, hình dạng đầu rắn (hoặc chụp ảnh từ xa an toàn).",
-      "2. Để nạn nhân NẰM YÊN BẤT ĐỘNG, cử động sẽ khiến nọc độc lan nhanh vào máu.",
-      "3. Cởi bỏ nhẫn, đồng hồ, vòng tay, giày tất ở chi bị cắn trước khi sưng nề.",
-      "4. Rửa nhẹ vết thương bằng nước muối sinh lý hoặc nước sạch.",
-      "5. Nẹp cố định chi bị cắn bằng thanh nẹp hoặc cành cây và giữ chi ở vị trí thấp hơn tim.",
-      "6. Dùng băng thun băng ép từ dưới vết cắn lên trên (nếu nghi rắn cạp nia/hổ chúa gây liệt cơ).",
-      "7. Chuyển ngay đến bệnh viện gần nhất có huyết thanh kháng nọc rắn."
+      "1. Move out of the snake's striking range. Note its color and head shape, or photograph it from a safe distance.",
+      "2. Have the person LIE STILL. Movement spreads venom into the blood faster.",
+      "3. Remove rings, watches, bracelets, shoes, and socks from the bitten limb before it swells.",
+      "4. Gently wash the wound with saline or clean water.",
+      "5. Splint the bitten limb with a board or stick and keep it lower than the heart.",
+      "6. If you suspect a neurotoxic snake such as a krait or king cobra, apply a pressure bandage from below the bite upward.",
+      "7. Go at once to the nearest hospital that has snake antivenom."
     ]
   },
   {
     "id": "dien_giat",
-    "title": "Sự cố điện giật & Rò điện trong nước",
+    "title": "Electric shock and live wires in water",
     "icon": "⚡",
     "severity": "CRITICAL",
     "callNumber": "115",
-    "quickSummary": "Cắt nguồn điện trước, dùng vật cách điện tách nạn nhân, không chạm tay trần.",
+    "quickSummary": "Cut the power first. Separate the person with a non-conductive object. Do not touch them with bare hands.",
     "steps": [
-      "1. TUYỆT ĐỐI KHÔNG CHẠM TRỰC TIẾP vào nạn nhân khi chưa ngắt nguồn điện.",
-      "2. Ngắt cầu dao chính, rút phích cắm hoặc dập aptomat ngay lập tức.",
-      "3. Nếu không ngắt được nguồn: Đứng trên vật khô cách điện (ván gỗ khô, thảm cao su), dùng gậy tre/gỗ khô hoặc chổi nhựa gạt dây điện ra khỏi người nạn nhân.",
-      "4. Nếu trong vũng nước ngập có điện: Tuyệt đối không lội xuống nước tiếp cận; giữ khoảng cách tối thiểu 10m và gọi điện lực khẩn cấp.",
-      "5. Khi đã tách điện an toàn: Kiểm tra nhịp thở, nếu ngừng thở phải ép tim CPR ngay lập tức và gọi 115."
+      "1. DO NOT TOUCH the person until the power is off.",
+      "2. Switch off the main breaker, unplug the cord, or trip the breaker at once.",
+      "3. If you cannot cut the power, stand on a dry insulator (dry wood or a rubber mat) and use a dry bamboo or wooden pole, or a plastic broom, to knock the wire off the person.",
+      "4. If floodwater is live, do not wade in. Stay at least 10 meters away and call the power utility emergency line.",
+      "5. Once they are clear of the current, check breathing. If they are not breathing, start CPR at once and call 115."
     ]
   }
 ]

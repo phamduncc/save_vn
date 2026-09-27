@@ -25,7 +25,7 @@ class DisasterListScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: const CustomAppBar(
-        title: 'Cẩm Nang Thiên Tai',
+        title: 'Disaster Guide',
       ),
       body: disastersAsync.when(
         data: (disasters) {
@@ -110,7 +110,7 @@ class DisasterListScreen extends ConsumerWidget {
         },
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (err, stack) => Center(
-          child: Text('Lỗi tải dữ liệu: $err', style: const TextStyle(color: Colors.white)),
+          child: Text('Failed to load data: $err', style: const TextStyle(color: Colors.white)),
         ),
       ),
     );

@@ -24,7 +24,7 @@ class FirstAidModel {
       id: json['id'] as String,
       title: json['title'] as String,
       icon: json['icon'] as String,
-      category: json['category'] as String? ?? 'Sơ cứu',
+      category: json['category'] as String? ?? 'First aid',
       goldenTime: json['goldenTime'] as String? ?? '',
       summary: json['summary'] as String? ?? '',
       steps: (json['steps'] as List<dynamic>?)?.map((e) => e.toString()).toList() ?? [],

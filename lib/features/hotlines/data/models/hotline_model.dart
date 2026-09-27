@@ -20,7 +20,7 @@ class HotlineModel {
       number: json['number'] as String,
       display: json['display'] as String?,
       name: json['name'] as String,
-      category: json['category'] as String? ?? 'Khẩn cấp',
+      category: json['category'] as String? ?? 'Emergency',
       description: json['description'] as String? ?? '',
       isPrimary: json['isPrimary'] as bool? ?? false,
     );

@@ -18,7 +18,7 @@ class KitItemModel {
   factory KitItemModel.fromJson(Map<String, dynamic> json, {bool isChecked = false}) {
     return KitItemModel(
       id: json['id'] as String,
-      category: json['category'] as String? ?? 'Khác',
+      category: json['category'] as String? ?? 'Other',
       title: json['title'] as String,
       description: json['description'] as String? ?? '',
       isEssential: json['isEssential'] as bool? ?? true,

@@ -2,22 +2,22 @@ class AppStrings {
   AppStrings._();
 
   static const String appName = 'SafeVN';
-  static const String appTagline = 'Ứng phó thiên tai & Cứu nạn 100% Offline';
+  static const String appTagline = 'Disaster response and rescue, 100% offline';
 
   // Home & Navigation
-  static const String navHome = 'Tổng quan';
-  static const String navDisasters = 'Thiên tai';
-  static const String navFirstAid = 'Sơ cứu';
-  static const String navKit = 'Túi cứu sinh';
+  static const String navHome = 'Home';
+  static const String navDisasters = 'Disasters';
+  static const String navFirstAid = 'First aid';
+  static const String navKit = 'Survival kit';
   static const String navHotlines = 'Hotline';
 
   // Emergency banner
-  static const String emergencyAlert = 'TÔI ĐANG GẶP NGUY HIỂM';
-  static const String emergencySubtitle = 'Chạm ngay để nhận hướng dẫn thoát hiểm trong 5 phút đầu';
+  static const String emergencyAlert = 'I AM IN DANGER';
+  static const String emergencySubtitle = 'Tap now for escape guidance in the first 5 minutes';
 
   // Warnings
-  static const String doNotDoTitle = 'TUYỆT ĐỐI KHÔNG NÊN LÀM';
-  static const String goldenTimeLabel = 'Thời gian vàng sơ cứu:';
-  static const String callNow = 'GỌI CỨU HỘ NGAY';
-  static const String directCall = 'Bấm để gọi';
+  static const String doNotDoTitle = 'NEVER DO THIS';
+  static const String goldenTimeLabel = 'First aid golden hour:';
+  static const String callNow = 'CALL FOR HELP NOW';
+  static const String directCall = 'Tap to call';
 }

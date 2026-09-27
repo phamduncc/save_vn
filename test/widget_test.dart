@@ -13,8 +13,8 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
 
     // Verify key UI text is present
-    expect(find.text('SafeVN Sinh Tồn'), findsOneWidget);
-    expect(find.text('TÔI ĐANG GẶP NGUY HIỂM'), findsOneWidget);
+    expect(find.text('SafeVN Survival'), findsOneWidget);
+    expect(find.text('I AM IN DANGER'), findsOneWidget);
     expect(find.text('112'), findsOneWidget);
     expect(find.text('114'), findsOneWidget);
     expect(find.text('115'), findsOneWidget);
