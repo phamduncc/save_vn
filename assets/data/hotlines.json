@@ -1,0 +1,61 @@
+[
+  {
+    "number": "112",
+    "name": "Cứu nạn cứu hộ khẩn cấp toàn quốc",
+    "category": "Cứu nạn thiên tai",
+    "description": "Tiếp nhận yêu cầu tìm kiếm cứu nạn, cứu hộ sự cố bão lũ, sạt lở, mất tích, chìm tàu trên biển và đất liền.",
+    "isPrimary": true
+  },
+  {
+    "number": "114",
+    "name": "Cảnh sát PCCC & Cứu nạn cứu hộ",
+    "category": "Hỏa hoạn & Mắc kẹt",
+    "description": "Xử lý hỏa hoạn, cháy nổ, sập đổ công trình, giải cứu người bị mắc kẹt trên cao hoặc dưới hầm sâu.",
+    "isPrimary": true
+  },
+  {
+    "number": "115",
+    "name": "Cấp cứu Y tế",
+    "category": "Y tế",
+    "description": "Vận chuyển cấp cứu người bị thương nặng, ngừng tim, ngừng thở, đột quỵ, tai nạn nguy cấp.",
+    "isPrimary": true
+  },
+  {
+    "number": "113",
+    "name": "Cảnh sát Phản ứng nhanh",
+    "category": "An ninh trật tự",
+    "description": "Bảo vệ an ninh trật tự, xử lý các vụ việc gây rối, trộm cắp tài sản trong vùng sơ tán thiên tai.",
+    "isPrimary": true
+  },
+  {
+    "number": "111",
+    "name": "Tổng đài Quốc gia Bảo vệ Trẻ em",
+    "category": "Bảo trợ xã hội",
+    "description": "Hỗ trợ khẩn cấp bảo vệ quyền lợi, an toàn và cứu trợ tâm lý cho trẻ em trong mọi hoàn cảnh.",
+    "isPrimary": false
+  },
+  {
+    "number": "02437335694",
+    "display": "024.3733.5694",
+    "name": "Văn phòng BCĐ Quốc gia về Phòng chống Thiên tai",
+    "category": "Chỉ đạo phòng chống",
+    "description": "Đường dây nóng tiếp nhận thông tin và điều phối ứng phó thiên tai cấp quốc gia.",
+    "isPrimary": false
+  },
+  {
+    "number": "02438224030",
+    "display": "024.3822.4030",
+    "name": "Trung ương Hội Chữ thập đỏ Việt Nam",
+    "category": "Cứu trợ nhân đạo",
+    "description": "Điều phối hàng cứu trợ khẩn cấp, lương thực, nước sạch và hỗ trợ người dân vùng thiên tai.",
+    "isPrimary": false
+  },
+  {
+    "number": "19009095",
+    "display": "1900.9095",
+    "name": "Đường dây nóng Bộ Y tế",
+    "category": "Y tế cộng đồng",
+    "description": "Tư vấn và hướng dẫn vệ sinh phòng dịch, xử lý nguồn nước sinh hoạt sau ngập lụt bão lũ.",
+    "isPrimary": false
+  }
+]

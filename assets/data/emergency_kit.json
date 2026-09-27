@@ -1,0 +1,135 @@
+[
+  {
+    "id": "kit_water",
+    "category": "Lương thực & Nước uống",
+    "title": "Nước uống đóng chai",
+    "description": "Tối thiểu 3 lít/người/ngày, đủ dùng trong 3 ngày (tổng 9 lít/người).",
+    "isEssential": true
+  },
+  {
+    "id": "kit_food",
+    "category": "Lương thực & Nước uống",
+    "title": "Thực phẩm khô không cần nấu",
+    "description": "Lương khô quân đội, đồ hộp, bánh quy năng lượng, các loại hạt dinh dưỡng.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_water_purify",
+    "category": "Lương thực & Nước uống",
+    "title": "Viên khử trùng nước / Ống lọc sinh tồn",
+    "description": "Viên Aquatabs hoặc ống lọc di động dùng khi cạn kiệt nước đóng chai.",
+    "isEssential": false
+  },
+  {
+    "id": "kit_med_box",
+    "category": "Y tế & Dược phẩm",
+    "title": "Túi sơ cứu y tế",
+    "description": "Băng cuộn, gạc vô trùng, băng dán cá nhân, dung dịch sát khuẩn Povidone Iodine.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_med_personal",
+    "category": "Y tế & Dược phẩm",
+    "title": "Thuốc đặc trị theo toa của gia đình",
+    "description": "Thuốc huyết áp, tim mạch, tiểu đường, hen suyễn dự trữ tối thiểu 7-14 ngày.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_med_basic",
+    "category": "Y tế & Dược phẩm",
+    "title": "Thuốc không kê đơn thiết yếu",
+    "description": "Hạ sốt Paracetamol, thuốc tiêu chảy Berberin, gói bù nước điện giải Oresol.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_flashlight",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Đèn pin siêu sáng & Pin dự phòng",
+    "description": "Đèn pin chống nước chuẩn IPX6 kèm theo pin tiểu dự trữ.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_powerbank",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Sạc dự phòng điện thoại (20.000mAh+)",
+    "description": "Sạc đầy 100% kèm dây cáp sạc đa năng tương thích các loại máy.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_radio",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Đài Radio FM/AM chạy pin",
+    "description": "Cực kỳ quan trọng để bắt sóng thông tin cứu hộ khi mất mạng di động và Internet.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_multitool",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Dao đa năng & Kìm bấm",
+    "description": "Mở hộp thực phẩm, cắt dây, bẩy vật cản thoát nạn.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_whistle",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Còi cứu hộ tần số cao",
+    "description": "Âm thanh còi truyền xa gấp 3 lần tiếng la hét mà không mất sức.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_lighter",
+    "category": "Công cụ & Nguồn điện",
+    "title": "Bật lửa / Que diêm chống nước",
+    "description": "Dùng để tạo nguồn lửa sưởi ấm, nấu nước sôi và phát tín hiệu khói cứu hộ.",
+    "isEssential": false
+  },
+  {
+    "id": "kit_doc_bag",
+    "category": "Giấy tờ & Tài chính",
+    "title": "Giấy tờ tùy thân bọc túi zip chống nước",
+    "description": "CCCD, thẻ BHYT, sổ hộ khẩu, giấy khai sinh bản photo công chứng.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_cash",
+    "category": "Giấy tờ & Tài chính",
+    "title": "Tiền mặt mệnh giá nhỏ",
+    "description": "ATM và ví điện tử sẽ tê liệt hoàn toàn khi mất điện diện rộng.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_blanket",
+    "category": "Quần áo & Giữ ấm",
+    "title": "Chăn giữ nhiệt tráng bạc (Mylar)",
+    "description": "Gấp siêu nhỏ, giữ ấm 90% nhiệt lượng cơ thể, chống gió nước tuyệt đối.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_raincoat",
+    "category": "Quần áo & Giữ ấm",
+    "title": "Áo mưa dẻo & Quần áo dự phòng",
+    "description": "1 bộ quần áo dài tay gấp gọn trong túi chống nước và 1 áo mưa dày dặn.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_lifejacket",
+    "category": "Quần áo & Giữ ấm",
+    "title": "Áo phao cứu sinh đạt chuẩn",
+    "description": "Bắt buộc nếu gia đình bạn sinh sống ở vùng trũng thấp có nguy cơ ngập lụt.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_mask",
+    "category": "Vệ sinh & Bảo hộ",
+    "title": "Khẩu trang N95 / Mặt nạ chống bụi khói",
+    "description": "Bảo vệ đường hô hấp khỏi khói bụi vụn tro và mầm bệnh sau bão lũ.",
+    "isEssential": true
+  },
+  {
+    "id": "kit_gloves",
+    "category": "Vệ sinh & Bảo hộ",
+    "title": "Găng tay lao động dày dặn",
+    "description": "Bảo vệ đôi tay khi dọn dẹp tôn rỉ, mảnh kính vỡ và cây cối đổ nát.",
+    "isEssential": false
+  }
+]

@@ -1,0 +1,25 @@
+SafeVN là cẩm nang ứng phó thiên tai, thoát nạn khẩn cấp và sơ cứu y tế hoạt động 100% OFFLINE, được phát triển để bảo vệ bạn và gia đình trong mọi tình huống khẩn cấp tại Việt Nam.
+
+Khi bão lũ xảy ra, hệ thống viễn thông và Internet thường xuyên bị cắt đứt. Toàn bộ dữ liệu của SafeVN được lưu trữ sẵn ngay trên máy, giúp bạn tra cứu tức thì mà không cần mạng.
+
+TÍNH NĂNG NỔI BẬT:
+
+1. Chế độ "Tôi đang gặp nguy hiểm":
+Hướng dẫn xử lý từng bước cho các tình huống khẩn cấp: xe bị ngập nước, nước tràn vào nhà, dông sét dữ dội, nguy cơ sạt lở đất đồi, người bị đuối nước hoặc chảy máu nặng. Giúp bạn ra quyết định chính xác trong 5 phút đầu tiên.
+
+2. Cẩm nang thiên tai 3 giai đoạn:
+Bao gồm Bão, Lũ lụt, Sạt lở, Sét đánh, Hỏa hoạn và Động đất. Cung cấp đầy đủ hướng dẫn Trước - Đang - Sau thiên tai và danh mục cảnh báo "TUYỆT ĐỐI KHÔNG NÊN LÀM" giúp phòng tránh rủi ro tính mạng.
+
+3. Kỹ năng sơ cứu y tế khẩn cấp:
+Quy trình sơ cứu chuẩn cho ngừng tim (kèm máy đếm nhịp ép tim CPR 110 nhịp/phút), cầm máu động mạch, bỏng nhiệt, gãy xương, hóc dị vật đường thở (Heimlich) và rắn độc cắn.
+
+4. Túi cứu sinh 72 giờ (Emergency Kit):
+Danh mục kiểm tra vật dụng sống còn cần thiết cho 3 ngày cô lập, giúp bạn chủ động chuẩn bị trước mùa mưa bão.
+
+5. Danh bạ cứu hộ khẩn cấp quốc gia:
+Gọi một chạm tới các đường dây nóng cứu hộ: 112 (Tìm kiếm cứu nạn), 114 (PCCC & Cứu nạn), 115 (Cấp cứu y tế), 113 (An ninh trật tự).
+
+6. Công cụ phát tín hiệu SOS:
+Chớp sáng màn hình tín hiệu SOS thu hút trực thăng và đội cứu hộ vào ban đêm, cùng chế độ đèn pin trắng màn hình cực sáng.
+
+SafeVN cam kết: Hoàn toàn không thu thập dữ liệu cá nhân, không chứa quảng cáo, hoạt động 100% tin cậy khi mất mạng.

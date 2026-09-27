@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cpr_tim_phoi",
+    "title": "Hồi sinh tim phổi (CPR)",
+    "icon": "🫀",
+    "category": "Hồi sức cấp cứu",
+    "goldenTime": "4 phút đầu tiên",
+    "summary": "Ép tim ngoài lồng ngực và hô hấp nhân tạo cho người ngừng tim hoặc ngừng thở đột ngột.",
+    "steps": [
+      "1. Đảm bảo hiện trường an toàn cho cả bạn và nạn nhân.",
+      "2. Lay vai nạn nhân và hỏi to 'Anh/Chị có sao không?'.",
+      "3. Nếu không phản ứng: Chỉ định một người cụ thể 'Bạn áo xanh gọi 115 ngay và tìm máy khử rung AED nếu có!'.",
+      "4. Đặt nạn nhân nằm ngửa trên nền cứng, bằng phẳng.",
+      "5. Đặt gót bàn tay vào giữa ngực (nửa dưới xương ức), đan ngón tay còn lại lên trên.",
+      "6. Giữ thẳng khuỷu tay, dùng trọng lượng thân trên ấn vuông góc xuống ngực với độ sâu 5 - 6 cm.",
+      "7. ÉP TIM TỐC ĐỘ 100 - 120 LẦN/PHÚT, đếm to nhịp: 1, 2, 3... 30.",
+      "8. Nếu được huấn luyện: Thực hiện 2 lần thổi ngạt sau mỗi 30 lần ép tim. Nếu không, chỉ cần ÉP TIM LIÊN TỤC (Hands-only CPR)."
+    ],
+    "cautions": [
+      "KHÔNG dừng ép tim quá 10 giây giữa các chu kỳ.",
+      "KHÔNG gập cong khuỷu tay khi ép làm giảm lực tác động.",
+      "Để lồng ngực đàn hồi nở hết cỡ sau mỗi nhịp ấn."
+    ]
+  },
+  {
+    "id": "cam_mau_vet_thuong",
+    "title": "Cầm máu vết thương hở",
+    "icon": "🩹",
+    "category": "Chấn thương ngoại khoa",
+    "goldenTime": "Càng sớm càng tốt",
+    "summary": "Kỹ thuật kiểm soát chảy máu ngoài, ngăn ngừa sốc mất máu nguy hiểm tính mạng.",
+    "steps": [
+      "1. Mang găng tay y tế hoặc bọc nilon sạch bảo vệ bản thân khỏi lây nhiễm qua đường máu.",
+      "2. Ép trực tiếp miếng gạc vô trùng hoặc khăn sạch lên vết thương đang chảy máu.",
+      "3. Dùng lực bàn tay ấn mạnh liên tục trong ít nhất 10-15 phút không buông.",
+      "4. Dùng băng cuộn băng ép chặt vết thương giữ cố định miếng gạc.",
+      "5. Nếu máu thấm đỏ qua băng: Đặt thêm lớp gạc mới lên trên, tiếp tục băng siết, tuyệt đối KHÔNG bóc lớp gạc cũ ra.",
+      "6. Nâng chi bị thương cao hơn tim nếu không bị gãy xương.",
+      "7. Nếu đứt động mạch lớn chi (máu đỏ tươi phun thành tia) mà băng ép không đỡ: Áp dụng garo phía trên vết thương 5cm, ghi rõ thời gian đặt garo và nới garo 1-2 phút mỗi tiếng."
+    ],
+    "cautions": [
+      "KHÔNG rắc bột thuốc lào, lông cu ly, bùn đất hoặc thảo dược không rõ nguồn gốc lên vết thương hở.",
+      "KHÔNG tự ý rút dị vật lớn (dao, mảnh kim loại, que gỗ) đang cắm sâu vào vết thương vì nó đang có tác dụng nút cầm máu tạm thời."
+    ]
+  },
+  {
+    "id": "xu_tri_bong",
+    "title": "Sơ cứu bỏng nhiệt",
+    "icon": "🔥",
+    "category": "Tổn thương da",
+    "goldenTime": "Ngay trong 10 phút đầu",
+    "summary": "Làm mát tức thì vùng da bị tổn thương để hạ nhiệt độ và giảm tổn hại mô sâu.",
+    "steps": [
+      "1. Đưa nạn nhân rời khỏi nguồn nhiệt hoặc dập lửa trên quần áo (nằm xuống và lăn vòng tròn).",
+      "2. NGÂM HOẶC XỐI NƯỚC SẠCH MÁT (15 - 20°C) lên vết bỏng liên tục trong 15 - 20 phút.",
+      "3. Cởi bỏ nhẹ nhàng trang sức, đồng hồ, quần áo chật ở vùng bỏng TRƯỚC KHI bị sưng nề.",
+      "4. Che phủ vết bỏng bằng gạc sạch vô trùng hoặc màng bọc thực phẩm sạch lỏng lẻo.",
+      "5. Cho nạn nhân uống nhiều nước ấm pha chút muối hoặc dung dịch Oresol.",
+      "6. Đưa đến cơ sở y tế nếu vết bỏng rộng hơn lòng bàn tay, bỏng ở mặt, mắt, khớp hoặc bộ phận sinh dục."
+    ],
+    "cautions": [
+      "KHÔNG dùng nước đá hoặc đá lạnh chườm trực tiếp vì gây bỏng lạnh và hoại tử mô.",
+      "KHÔNG bôi kem đánh răng, nước mắm, mỡ trăn, lòng đỏ trứng lên vết bỏng.",
+      "KHÔNG chọc vỡ các bọng nước phồng rộp vì lớp da phồng là màng bảo vệ vô trùng tự nhiên."
+    ]
+  },
+  {
+    "id": "co_dinh_gay_xuong",
+    "title": "Cố định xương gãy",
+    "icon": "🦴",
+    "category": "Chấn thương cơ xương",
+    "goldenTime": "Trước khi di chuyển nạn nhân",
+    "summary": "Bất động khớp trên và khớp dưới ổ gãy, giảm đau đớn và phòng ngừa sốc chấn thương.",
+    "steps": [
+      "1. Không di chuyển nạn nhân nếu chưa cố định vùng xương nghi gãy, trừ khi hiện trường cực kỳ nguy hiểm.",
+      "2. Dùng thanh nẹp gỗ, cành cây thẳng hoặc bìa carton cứng dài hơn chiều dài ổ gãy.",
+      "3. Nẹp phải dài đủ để CỐ ĐỊNH CẢ 2 KHỚP: 1 khớp phía trên và 1 khớp phía dưới của xương bị gãy.",
+      "4. Lót đệm vải hoặc bông mềm vào các đầu xương và vị trí tiếp xúc giữa nẹp với da thịt.",
+      "5. Buộc dây cố định nẹp ở trên và dưới ổ gãy, không buộc đè lên vị trí gãy xương.",
+      "6. Kiểm tra tuần hoàn: Bắt mạch hoặc sờ đầu ngón tay/chân xem có ấm hồng không sau khi buộc nẹp."
+    ],
+    "cautions": [
+      "KHÔNG cố nắn chỉnh hoặc kéo thẳng xương gãy bị lệch trục.",
+      "Nếu là gãy xương hở (đầu xương đâm chọc qua da): KHÔNG đẩy đầu xương thụt vào trong vết thương; hãy băng sạch bảo vệ xung quanh."
+    ]
+  },
+  {
+    "id": "di_vat_duong_tho",
+    "title": "Hóc dị vật / Hóc nghẹn (Heimlich)",
+    "icon": "🫁",
+    "category": "Hô hấp",
+    "goldenTime": "Trong 2 - 3 phút đầu",
+    "summary": "Tạo áp lực đẩy dị vật đang bít tắc đường thở ra ngoài, cứu sống nạn nhân ngạt thở.",
+    "steps": [
+      "1. Nhận biết: Nạn nhân đột ngột ôm cổ họng, không thể nói, không thể ho ra tiếng, mặt tím tái.",
+      "2. Đứng phía sau nạn nhân, vòng hai tay ôm quanh eo.",
+      "3. Nắm một bàn tay lại thành nắm đấm, đặt ngón cái của nắm đấm vào vùng thượng vị (ngay trên rốn, dưới mũi ức).",
+      "4. Bàn tay kia ôm trọn lấy nắm đấm.",
+      "5. GIẬT MẠNH VÀ NHANH HƯỚNG VÀO TRONG VÀ LÊN TRÊN (tạo luồng khí đẩy dị vật bật ra).",
+      "6. Lặp lại động tác 5 lần, luân phiên vỗ lưng giữa 2 bả vai nếu cần thiết.",
+      "7. Nếu nạn nhân bất tỉnh: Đặt nằm ngửa và tiến hành ép tim CPR ngay."
+    ],
+    "cautions": [
+      "KHÔNG móc họng một cách mù quáng bằng ngón tay nếu không nhìn thấy rõ dị vật (dễ đẩy dị vật tụt sâu hơn).",
+      "Với trẻ nhũ nhi dưới 1 tuổi: Áp dụng kỹ thuật 5 lần vỗ lưng và 5 lần ấn ngực, KHÔNG làm thủ thuật Heimlich người lớn."
+    ]
+  },
+  {
+    "id": "say_nang_soc_nhiet",
+    "title": "Say nắng & Sốc nhiệt (Heatstroke)",
+    "icon": "☀️",
+    "category": "Nhiệt độ môi trường",
+    "goldenTime": "Ngay lập tức",
+    "summary": "Hạ thân nhiệt khẩn cấp khi cơ thể mất khả năng điều nhiệt, sốt cao trên 40°C.",
+    "steps": [
+      "1. Chuyển ngay nạn nhân vào chỗ râm mát, thoáng khí hoặc phòng có điều hòa mát.",
+      "2. Cởi bớt cúc áo, nới lỏng thắt lưng và quần áo chật.",
+      "3. Làm mát toàn thân: Phun nước mát lên người, dùng khăn ướt lau khắp cơ thể và dùng quạt mát.",
+      "4. Đặt túi chườm mát hoặc khăn ướt vào CÁC VỊ TRÍ MẠCH MÁU LỚN: nách, bẹn, hai bên cổ.",
+      "5. Nếu nạn nhân còn tỉnh táo: Cho uống từng ngụm nhỏ nước mát hoặc dung dịch Oresol.",
+      "6. Đưa đến bệnh viện ngay nếu nạn nhân lơ mơ, co giật hoặc nôn ói."
+    ],
+    "cautions": [
+      "KHÔNG cho uống thuốc hạ sốt Paracetamol/Aspirin (không có tác dụng trong sốc nhiệt và có thể gây hại gan/thận).",
+      "KHÔNG cho người bất tỉnh hoặc lơ mơ uống nước vì nguy cơ sặc vào phổi."
+    ]
+  }
+]
